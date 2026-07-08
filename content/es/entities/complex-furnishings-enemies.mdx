@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Eye, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enemigos de Complex Furnishings: Guía de Supervivencia y Lista de Entidades",
+  description: "Domina el almacén infinito en Complex Furnishings. Aprende a identificar entidades, sobrevivir en entornos hostiles y escapar de los Backrooms en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fcd34d?text=Complex+Furnishings+Enemies+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Complex Furnishings",
+  keywords: "complex furnishings, enemigos, entidades, roblox, guía de supervivencia, backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los enemigos de Complex Furnishings** son amenazas ambientales y basadas en entidades activadas por la mecánica del "almacén hostil".
+- **El sigilo y el cooperativo** son tus defensas principales; el almacén reacciona agresivamente cuando se retiran los muebles.
+- **La navegación por puntos de referencia** es esencial para la supervivencia, ya que el diseño infinito está pensado para desorientar a los jugadores durante las persecuciones.
+- **Las zonas de alerta máxima** aparecen en las profundidades del almacén, donde las tasas de manifestación de entidades aumentan significativamente.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo a los Enemigos de Complex Furnishings">
+
+En los inquietantes pasillos de la experiencia de Roblox *Complex Furnishings*, el antagonista principal no es solo un monstruo, sino el entorno mismo. Desarrollado por Real Mouse Productions y fuertemente inspirado en el horror liminal de Kane Parsons y *The Backrooms* de A24, este juego introduce una mecánica única de "almacén hostil". A medida que los jugadores intentan cumplir su objetivo de tomar y vender muebles, el almacén comienza a manifestar diversas amenazas para proteger su inventario infinito.
+
+Comprender a los **enemigos de Complex Furnishings** requiere un cambio de perspectiva. No eres solo un recolector; eres un intruso en un espacio que posee una voluntad colectiva y defensiva. Cuanto más te adentres en el almacén, más se retuerce el entorno para impedir tu salida.
+
+**Puntos destacados del video:**
+- **Tensión atmosférica**: Un vistazo al entorno de la tienda de muebles liminal.
+- **Avances de entidades**: Breves vistazos de sombras moviéndose entre los estantes del almacén infinito.
+- **Mecánicas cooperativas**: Cómo los jugadores deben coordinarse para detectar amenazas antes de que escalen.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+<Callout type="warning" title="Advertencia de Hostilidad">
+El nivel de agresión del almacén escala según la cantidad de muebles que tu equipo haya intentado retirar. Cuanto más te lleves, más activas se volverán las entidades.
+</Callout>
+
+| Tipo de Amenaza | Patrón de Comportamiento | Nivel de Peligro | Método de Detección |
+| :--- | :--- | :--- | :--- |
+| **Acechadores del Almacén** | Siguen a los jugadores a distancia, acercándose cuando las luces parpadean. | **Alto** | Señales de audio, estática, distorsión visual. |
+| **Mímicos Ambientales** | Se disfrazan como muebles comunes hasta que alguien se acerca. | **Medio** | Colocación inusual, ligero movimiento. |
+| **La Mente Colmena** | Una fuerza colectiva que sella salidas y desvía pasillos. | **Extremo** | Cambios en los patrones del suelo, puertas que desaparecen. |
+| **Sombras Liminales** | Entidades rápidas que aparecen en la visión periférica. | **Bajo** | Movimiento rápido en esquinas oscuras. |
+
+</Section>
+
+<Section icon={Eye} title="Clasificación e Identificación de Entidades">
+
+Identificar a los **enemigos de Complex Furnishings** antes de que ataquen marca la diferencia entre un botín exitoso y una estancia permanente en el almacén. Estas entidades no siguen los tropos estándar del horror en Roblox; están diseñadas para explotar el "valle inquietante" de un entorno minorista.
+
+Las entidades a menudo se manifiestan como distorsiones del tema de la tienda de muebles. Por ejemplo, un estante que estaba vacío hace un momento podría aparecer de repente lleno de artículos con una textura o color "incorrectos". Estas son señales de advertencia temprana de que una entidad se está manifestando en tu vecindad inmediata.
+
+<Callout type="tip" title="Consejo de Identificación Pro">
+Usa tu linterna con moderación. Aunque te ayuda a ver, ciertas entidades en el almacén infinito se sienten atraídas por las fuentes de luz artificial.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Señales Visuales">
+    - **Luces parpadeantes**: Indica que una entidad se mueve a través de la red eléctrica.
+    - **Deformación de texturas**: Paredes o muebles que parecen "derretirse" o vibrar.
+    - **Desplazamiento de sombras**: Sombras que no se alinean con las fuentes de luz de la habitación.
+  </Card>
+  <Card title="Señales Auditivas">
+    - **Raspado distante**: El sonido de muebles siendo movidos en habitaciones adyacentes.
+    - **Zumbido**: Un zumbido de baja frecuencia que se intensifica cerca de las zonas hostiles.
+    - **Ecos de pasos**: Escuchar pasos adicionales que no pertenecen a tu equipo.
+  </Card>
+</CardGrid>
+
+| Tipo de Habitación | Tipo de Enemigo Principal | Tasa de Aparición | Prioridad de Supervivencia |
+| :--- | :--- | :--- | :--- |
+| **Piso de Exhibición** | Mímicos | 15% | Alta (Revisar muebles) |
+| **Almacén Infinito** | Acechadores | 65% | Extrema (Seguir moviéndose) |
+| **Muelles de Carga** | La Mente Colmena | 40% | Media (Vigilar salidas) |
+| **Túneles de Mantenimiento**| Sombras | 80% | Alta (Control de linterna) |
+
+</Section>
+
+<Section icon={Target} title="Estrategias de Supervivencia y Tácticas de Evasión">
+
+Sobrevivir a los encuentros con los **enemigos de Complex Furnishings** requiere un enfoque disciplinado del movimiento y la gestión del inventario. Debido a que el juego está diseñado para el juego cooperativo, tu estrategia debe involucrar a todo el equipo. Separarse suele ser una sentencia de muerte, ya que el almacén puede alterar dinámicamente su diseño para aislar a los jugadores solitarios.
+
+<Steps>
+  <Step num="1" title="Establecer un Perímetro">
+    Antes de entrar en una nueva sección del almacén, designa un "explorador" y un "navegador". El explorador busca muebles para vender, mientras que el navegador lleva la cuenta de la ruta de salida.
+  </Step>
+  <Step num="2" title="Monitorear Niveles de Agresión">
+    Presta atención a las señales ambientales. Si el zumbido de las luces fluorescentes se vuelve ensordecedor, significa que el almacén está alcanzando un estado de alta hostilidad.
+  </Step>
+  <Step num="3" title="Ejecutar Extracción Silenciosa">
+    Al mover muebles, evita arrastrar los objetos por el suelo. El ruido alerta a las entidades cercanas. Levanten los objetos juntos en cooperativo para minimizar el sonido.
+  </Step>
+  <Step num="4" title="Utilizar Zonas Seguras">
+    Ciertas áreas con iluminación más brillante y estable actúan como zonas seguras temporales. Las entidades rara vez entran en estos "puntos de control" altamente iluminados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia Cooperativa">
+Asigna a un jugador para que lleve un "Objeto de Distracción", un mueble ruidoso que se puede soltar para atraer a las entidades lejos del grupo principal durante un escape.
+</Callout>
+
+| Técnica de Evasión | Mejor contra | Efectividad | Factor de Riesgo |
+| :--- | :--- | :--- | :--- |
+| **Romper línea de visión** | Acechadores | ★★★★☆ | Bajo |
+| **Permanecer quieto** | Sombras | ★★★☆☆ | Medio |
+| **Extracción rápida** | La Mente Colmena | ★★☆☆☆ | Alto |
+| **Barricadas de muebles** | Mímicos | ★★★★★ | Bajo |
+
+</Section>
+
+<Section icon={Shield} title="Navegando el Entorno Hostil">
+
+El entorno en sí es uno de los **enemigos de Complex Furnishings** más peligrosos. El almacén es infinito, lo que significa que el mapeo tradicional es imposible. En su lugar, debes confiar en la "Navegación Liminal", utilizando la naturaleza repetitiva de las habitaciones a tu favor.
+
+Las entidades a menudo usan la estructura laberíntica para acorralar a los jugadores. Al comprender los diseños de habitaciones comunes, puedes predecir dónde podría intentar interceptarte una entidad. Busca siempre "espacios de transición" como pasillos o puertas que ofrezcan múltiples puntos de salida.
+
+<Callout type="warning" title="Peligro de Navegación">
+No confíes en los carteles de "Salida". En fases de alta hostilidad, el almacén volteará estos carteles para guiar a los jugadores más profundamente en el vacío infinito.
+</Callout>
+
+<Checklist
+  id="survival-kit"
+  title="Lista de Verificación de Supervivencia Previa a la Incursión:"
+  items={[
+    "Verificar que todos los compañeros tengan comunicaciones de voz o texto funcionando",
+    "Identificar al menos dos muebles como puntos de referencia cerca de la entrada",
+    "Asegurarse de que la 'Zona de Extracción' esté libre de escombros",
+    "Asignar a un 'Portador de Luz' designado para los pasillos oscuros",
+    "Memorizar el sonido de activación de un 'Mímico'"
+  ]}
+/>
+
+| Tipo de Punto de Referencia | Significado | Asociación de Peligro |
+| :--- | :--- | :--- |
+| **Sofá de Terciopelo Rojo** | Punto de aparición frecuente de Mímicos | Alto |
+| **Estantería Industrial** | Proporciona cobertura contra Acechadores | Bajo |
+| **Pilares de Azulejos Amarillos** | A menudo marca la transición a una nueva zona | Medio |
+| **Luces de Techo Rotas** | Indica una zona de entidad de alta actividad | Extremo |
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos Avanzados para el Meta de 2026">
+
+A medida que avanzamos en la temporada de mediados de 2026, el meta para manejar a los **enemigos de Complex Furnishings** ha evolucionado. Los jugadores profesionales ahora están utilizando el "Anclaje de Muebles", una técnica en la que se dejan artículos específicos en las puertas para evitar que el almacén cambie el diseño de la habitación. Esto permite incursiones mucho más largas en las secciones más profundas y rentables de los backrooms.
+
+Otra táctica emergente es el "Enmascaramiento de Sonido". Al activar intencionalmente una entidad de bajo nivel en un área, los equipos pueden mover grandes cantidades de muebles en otra área mientras la "atención" del almacén está desviada.
+
+<Callout type="tip" title="Estrategia Experta">
+La influencia de 'Kane Parsons' significa que las entidades a menudo siguen una lógica basada en el sonido y la vista. Si no puedes verlas y no estás haciendo ruido, eres efectivamente invisible para el 70% del catálogo actual de entidades.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="El Método del Ancla">
+    Deja una silla en cada tercera puerta para estabilizar el mapa.
+  </Card>
+  <Card title="La Incursión de Señuelo">
+    Un jugador atrae la agresión mientras otros dos extraen artículos de alto valor.
+  </Card>
+  <Card title="Gestión de Luz">
+    Mantén una habitación a oscuras para esconderte de los acechadores sensibles a la luz.
+  </Card>
+</CardGrid>
+
+| Equipo/Táctica | Costo/Esfuerzo | Recompensa | Ranking del Meta |
+| :--- | :--- | :--- | :--- |
+| **Anclaje de Muebles** | Medio | Mapa Estable | Rango S |
+| **Enmascaramiento de Sonido** | Alto | Extracción Segura | Rango A |
+| **Esprint Grupal** | Bajo | Salida Rápida | Rango C |
+| **Desplazamiento Sigiloso** | Medio | Evitar Detección | Rango B |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de Complex Furnishings">
+
+Dominar las entidades del almacén infinito requiere tiempo y práctica. A continuación se presentan las preguntas más comunes que tienen los jugadores con respecto a la supervivencia y el comportamiento de las entidades en *Complex Furnishings*.
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los enemigos más peligrosos de Complex Furnishings?",
+    answer: "Los Acechadores del Almacén se consideran los más peligrosos porque se adaptan al movimiento del jugador. A diferencia de los Mímicos, que son estacionarios, los Acechadores cazarán activamente y se coordinarán con el entorno para atraparte."
+  },
+  {
+    question: "¿Se pueden matar a los enemigos en Complex Furnishings?",
+    answer: "No, no puedes matar a las entidades. El juego es una experiencia de horror y supervivencia centrada en la evasión y el sigilo. Tu única 'arma' es tu capacidad para superar al almacén y usar los muebles como obstáculos."
+  },
+  {
+    question: "¿Aumenta la dificultad a medida que vendo más muebles?",
+    answer: "Sí. El juego cuenta con un medidor de 'Agresión del Almacén'. A medida que aumenta el valor total de los muebles vendidos, la tasa de aparición de entidades como la Mente Colmena y los Acechadores aumenta significativamente."
+  },
+  {
+    question: "¿Cómo sé si un mueble es un Mímico?",
+    answer: "Busca animaciones sutiles. Los Mímicos en Complex Furnishings ocasionalmente respirarán o cambiarán su peso. Si un mueble parece ligeramente fuera de lugar en comparación con el resto de la habitación, acércate con precaución."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Mantente siempre atento al Discord oficial y a las actualizaciones de los desarrolladores. Como nueva experiencia de Roblox, los comportamientos de las entidades y los diseños de las habitaciones están sujetos a parches frecuentes y cambios de equilibrio.
+</Callout>
+
+</Section>

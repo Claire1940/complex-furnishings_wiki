@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Complex Furnishings Controls: Complete Movement & Survival Guide",
+  description: "Master Complex Furnishings controls to survive the infinite stockroom. Learn key movement shortcuts, furniture interactions, and escape routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Movement+and+Survival+Controls",
+  date: "2026-07-09",
+  author: "complex furnishings Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Controls**: Learn how to navigate, sprint, and interact with stock items in the infinite stockroom.
+- **Complex Furnishings**: A cooperative Roblox survival game heavily inspired by Kane Parsons' A24 Backrooms film.
+- **Core Loop**: Search the retail space, carry furniture, avoid hostile entities, and sell goods to secure funds.
+- **Teamwork Strategy**: Stick together in co-op mode to watch blind spots and coordinate escape routes.
+- **Survival Rule**: Move deliberately, keep track of room layouts, and drop heavy furniture when a chase begins.
+</Callout>
+
+<Section icon={Map} title="Complex Furnishings Controls and Interface">
+
+Navigating the infinite stockroom in [Complex Furnishings](https://www.roblox.com/games/140202088182537/Complex-Furnishings) requires a firm grasp of the game's core input layout. Because this Roblox experience blends liminal space exploration with physics-based furniture handling, your reaction time directly impacts your survival. 
+
+**Video Highlights:**
+- **Store Layout**: Learn how the retail showroom transitions into the hostile infinite stockroom.
+- **Furniture Physics**: See how carrying items slows down your character and alters your escape options.
+- **Entity Identification**: Observe the movement patterns of the stockroom's hostile entities.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+Carrying heavy items introduces movement penalties, making it harder to escape when things go wrong. Familiarize yourself with the basic inputs below to ensure you do not get stuck in a tight corner.
+
+| Input Key | Action | Context & Usage |
+|---|---|---|
+| **W, A, S, D** | Move Character | Standard navigation through showrooms and corridors |
+| **Shift** | Sprint | Increases speed but drains stamina quickly |
+| **E** | Interact / Grab | Pick up furniture, open doors, or search containers |
+| **G** | Drop Item | Instantly drop carried furniture to regain full speed |
+| **Space** | Jump | Leap over low clutter or navigate blocked pathways |
+
+<Callout type="warning" title="Physics Penalty">
+Carrying large furniture pieces like couches or wardrobes significantly reduces your walking and sprinting speed. If you hear a threat approaching, press the drop key immediately to regain your mobility.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Mechanics and Risk Management">
+
+Success in this game is not just about grabbing the most expensive couch; it is about making it back to the showroom alive. The stockroom does not want you taking its inventory, and the deeper you explore, the more aggressive the environment becomes.
+
+<CardGrid cols={3}>
+  <Card title="Showroom Phase">
+    - **Safe zone**
+    - Low-value items
+    - Ideal for planning routes
+  </Card>
+  <Card title="Shallow Stockroom">
+    - **Moderate danger**
+    - Standard furniture stock
+    - Clear escape paths
+  </Card>
+  <Card title="Deep Stockroom">
+    - **Extreme danger**
+    - High-value rare items
+    - Maze-like corridors
+  </Card>
+</CardGrid>
+
+To maximize your earnings while minimizing risk, compare the different tiers of items you can recover from the stockroom:
+
+| Item Tier | Average Weight | Risk Level | Optimal Strategy |
+|---|---|---|---|
+| **Light Props** | Very Light | Low | Carry multiple; keep sprinting |
+| **Standard Chairs** | Medium | Low | Good for solo runs; moderate speed |
+| **Heavy Couches** | Heavy | Medium | Carry in pairs; clear exit path first |
+| **Rare Wardrobes** | Extremely Heavy | High | Use co-op players as lookouts |
+
+<Callout type="tip" title="Stamina Management">
+Never let your stamina bar completely deplete while deep in the stockroom. Always keep at least 25% of your stamina reserved for sudden chase sequences.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Exploration Guide">
+
+For beginners entering the infinite stockroom for the first time, a structured approach is essential. Rushing blindly into the maze will quickly lead to a confrontation with the stockroom's hostile entities.
+
+<Steps>
+  <Step num="1" title="Secure the Showroom Exit">
+    Locate the main entrance leading from the safe showroom into the stockroom. Before stepping inside, ensure you know the quickest path back to this safety threshold.
+  </Step>
+  <Step num="2" title="Identify Landmark Objects">
+    As you enter, look for unique furniture clusters or signs. Use these distinct props to mentally map your route so you do not lose your bearings in repeated rooms.
+  </Step>
+  <Step num="3" title="Assess Item Value vs. Weight">
+    Select items that match your current safety margin. Do not attempt to haul a heavy wardrobe from deep rooms unless your teammates are actively guarding the corridors.
+  </Step>
+  <Step num="4" title="Execute a Co-op Sweep">
+    Have one player act as the carrier while the other acts as the navigator and lookout. The lookout should keep a clear path behind the carrier at all times.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Co-op Advantage">
+Playing with friends allows you to chain furniture hand-offs. You can throw or drop items near thresholds for your teammates to carry back, keeping your runners light and ready to flee.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Run Goals and Checklist">
+
+To build up your funds efficiently, establish a consistent routine for every run. Focus on completing low-risk objectives before attempting high-value hauls in deeper, more dangerous zones.
+
+<Checklist
+  id="daily-survival-goals"
+  title="Essential Run Milestones:"
+  items={[
+    "Establish a clear visual landmark route back to the showroom",
+    "Secure at least three light prop items during your initial sweep",
+    "Coordinate roles with your co-op teammates before entering deep zones",
+    "Practice dropping heavy furniture instantly when a threat cue plays",
+    "Successfully extract one high-value furniture piece without triggering a chase"
+  ]}
+/>
+
+<Callout type="info" title="Community Resources">
+For real-time updates, patch notes, and community strategies, join the official [Complex Furnishings Discord](https://discord.gg/complexfurnishings). Keeping up with community discussions is a great way to discover new routing tricks.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do the Complex Furnishings controls change when carrying heavy furniture?",
+    answer: "Carrying heavy furniture heavily penalizes your movement speed and rapidly drains your stamina when sprinting. You must manually drop the item using the G key to restore your default mobility."
+  },
+  {
+    question: "What is the best way to avoid getting lost in the infinite stockroom?",
+    answer: "Use unique furniture arrangements, wall markings, and open doorways as physical landmarks. Always keep a clear mental image of the last two rooms you passed through."
+  },
+  {
+    question: "Are there any active codes available for Complex Furnishings?",
+    answer: "Currently, there are no active redeem codes published on the official Roblox page or social channels. Keep an eye on the official community Discord for future code releases."
+  },
+  {
+    question: "Can I play Complex Furnishings entirely solo?",
+    answer: "Yes, but the game is designed with co-op play in mind. Playing solo increases the risk of getting cornered by entities while hauling heavy furniture."
+  }
+]} />
+
+</Section>

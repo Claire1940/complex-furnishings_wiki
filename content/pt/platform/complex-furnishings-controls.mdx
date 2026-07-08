@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Complex Furnishings: Guia Completo de Movimentação e Sobrevivência",
+  description: "Domine os controles de Complex Furnishings para sobreviver ao estoque infinito. Aprenda atalhos de movimento essenciais, interações com móveis e rotas de fuga.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Movement+and+Survival+Controls",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Complex Furnishings",
+  keywords: "Complex Furnishings, controles, guia de sobrevivência, Roblox, móveis, backrooms"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Controles Primários**: Aprenda a navegar, correr e interagir com os itens de estoque no estoque infinito.
+- **Complex Furnishings**: Um jogo de sobrevivência cooperativo no Roblox fortemente inspirado no filme Backrooms da A24 de Kane Parsons.
+- **Ciclo Principal**: Vasculhe o espaço de varejo, carregue móveis, evite entidades hostis e venda mercadorias para garantir fundos.
+- **Estratégia de Equipe**: Mantenham-se unidos no modo cooperativo para vigiar pontos cegos e coordenar rotas de fuga.
+- **Regra de Sobrevivência**: Mova-se deliberadamente, acompanhe o layout das salas e solte móveis pesados quando uma perseguição começar.
+</Callout>
+
+<Section icon={Map} title="Controles e Interface de Complex Furnishings">
+
+Navegar pelo estoque infinito em [Complex Furnishings](https://www.roblox.com/games/140202088182537/Complex-Furnishings) exige um domínio sólido do layout de comandos do jogo. Como esta experiência no Roblox mistura exploração de espaços liminares com manipulação física de móveis, seu tempo de reação impacta diretamente sua sobrevivência. 
+
+**Destaques do Vídeo:**
+- **Layout da Loja**: Aprenda como o showroom de varejo faz a transição para o hostil estoque infinito.
+- **Física dos Móveis**: Veja como carregar itens reduz a velocidade do seu personagem e altera suas opções de fuga.
+- **Identificação de Entidades**: Observe os padrões de movimento das entidades hostis do estoque.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+Carregar itens pesados introduz penalidades de movimento, tornando mais difícil escapar quando algo dá errado. Familiarize-se com os comandos básicos abaixo para garantir que você não fique preso em um canto apertado.
+
+| Tecla de Comando | Ação | Contexto e Uso |
+|---|---|---|
+| **W, A, S, D** | Mover Personagem | Navegação padrão por showrooms e corredores |
+| **Shift** | Correr | Aumenta a velocidade, mas consome stamina rapidamente |
+| **E** | Interagir / Pegar | Pegar móveis, abrir portas ou vasculhar recipientes |
+| **G** | Largar Item | Larga móveis instantaneamente para recuperar velocidade total |
+| **Space** | Pular | Saltar sobre obstáculos baixos ou navegar por caminhos bloqueados |
+
+<Callout type="warning" title="Penalidade de Física">
+Carregar peças de móveis grandes, como sofás ou armários, reduz significativamente sua velocidade de caminhada e corrida. Se ouvir uma ameaça se aproximando, pressione a tecla de largar imediatamente para recuperar sua mobilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Sobrevivência e Gestão de Riscos">
+
+O sucesso neste jogo não se trata apenas de pegar o sofá mais caro; trata-se de conseguir voltar vivo para o showroom. O estoque não quer que você leve seu inventário e, quanto mais fundo você explora, mais agressivo o ambiente se torna.
+
+<CardGrid cols={3}>
+  <Card title="Fase do Showroom">
+    - **Zona segura**
+    - Itens de baixo valor
+    - Ideal para planejar rotas
+  </Card>
+  <Card title="Estoque Raso">
+    - **Perigo moderado**
+    - Estoque de móveis padrão
+    - Rotas de fuga claras
+  </Card>
+  <Card title="Estoque Profundo">
+    - **Perigo extremo**
+    - Itens raros de alto valor
+    - Corredores labirínticos
+  </Card>
+</CardGrid>
+
+Para maximizar seus ganhos e minimizar os riscos, compare os diferentes níveis de itens que você pode recuperar do estoque:
+
+| Nível do Item | Peso Médio | Nível de Risco | Estratégia Ideal |
+|---|---|---|---|
+| **Acessórios Leves** | Muito Leve | Baixo | Carregue vários; continue correndo |
+| **Cadeiras Padrão** | Médio | Baixo | Bom para partidas solo; velocidade moderada |
+| **Sofás Pesados** | Pesado | Médio | Carregue em duplas; limpe a rota de saída primeiro |
+| **Armários Raros** | Extremamente Pesado | Alto | Use jogadores cooperativos como vigias |
+
+<Callout type="tip" title="Gestão de Stamina">
+Nunca deixe sua barra de stamina esgotar completamente enquanto estiver nas profundezas do estoque. Sempre mantenha pelo menos 25% de sua stamina reservada para sequências de perseguição repentinas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Exploração Passo a Passo">
+
+Para iniciantes que entram no estoque infinito pela primeira vez, uma abordagem estruturada é essencial. Correr cegamente para o labirinto levará rapidamente a um confronto com as entidades hostis do estoque.
+
+<Steps>
+  <Step num="1" title="Garanta a Saída do Showroom">
+    Localize a entrada principal que leva do showroom seguro para o estoque. Antes de entrar, certifique-se de conhecer o caminho mais rápido de volta a este limite de segurança.
+  </Step>
+  <Step num="2" title="Identifique Objetos de Referência">
+    Ao entrar, procure por conjuntos de móveis ou placas únicas. Use esses objetos distintos para mapear mentalmente sua rota e não perder o rumo em salas repetidas.
+  </Step>
+  <Step num="3" title="Avalie o Valor do Item vs. Peso">
+    Selecione itens que correspondam à sua margem de segurança atual. Não tente transportar um armário pesado de salas profundas, a menos que seus companheiros de equipe estejam protegendo os corredores.
+  </Step>
+  <Step num="4" title="Execute uma Varredura Cooperativa">
+    Peça para um jogador atuar como o transportador, enquanto o outro atua como navegador e vigia. O vigia deve manter um caminho livre atrás do transportador o tempo todo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Vantagem Cooperativa">
+Jogar com amigos permite que vocês façam um revezamento de móveis. Você pode jogar ou soltar itens perto das passagens para seus colegas carregarem de volta, mantendo seus corredores leves e prontos para fugir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Metas de Partida Diária e Checklist">
+
+Para acumular fundos de forma eficiente, estabeleça uma rotina consistente para cada partida. Concentre-se em completar objetivos de baixo risco antes de tentar coletas de alto valor em zonas mais profundas e perigosas.
+
+<Checklist
+  id="daily-survival-goals"
+  title="Marcos Essenciais da Partida:"
+  items={[
+    "Estabelecer uma rota visual clara de pontos de referência de volta ao showroom",
+    "Garantir pelo menos três acessórios leves durante sua varredura inicial",
+    "Coordenar funções com seus colegas de equipe antes de entrar em zonas profundas",
+    "Praticar a queda instantânea de móveis pesados quando um sinal de ameaça tocar",
+    "Extrair com sucesso um móvel de alto valor sem desencadear uma perseguição"
+  ]}
+/>
+
+<Callout type="info" title="Recursos da Comunidade">
+Para atualizações em tempo real, notas de patch e estratégias da comunidade, junte-se ao [Discord oficial de Complex Furnishings](https://discord.gg/complexfurnishings). Acompanhar as discussões da comunidade é uma ótima maneira de descobrir novos truques de rota.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como os controles de Complex Furnishings mudam ao carregar móveis pesados?",
+    answer: "Carregar móveis pesados penaliza fortemente sua velocidade de movimento e consome sua stamina rapidamente ao correr. Você deve largar o item manualmente usando a tecla G para restaurar sua mobilidade padrão."
+  },
+  {
+    question: "Qual é a melhor maneira de evitar se perder no estoque infinito?",
+    answer: "Use arranjos de móveis únicos, marcações nas paredes e portas abertas como pontos de referência físicos. Mantenha sempre uma imagem mental clara das duas últimas salas pelas quais você passou."
+  },
+  {
+    question: "Existem códigos ativos disponíveis para Complex Furnishings?",
+    answer: "Atualmente, não há códigos de resgate ativos publicados na página oficial do Roblox ou nos canais sociais. Fique de olho no Discord oficial da comunidade para futuros lançamentos de códigos."
+  },
+  {
+    question: "Posso jogar Complex Furnishings inteiramente solo?",
+    answer: "Sim, mas o jogo foi projetado pensando no modo cooperativo. Jogar solo aumenta o risco de ser encurralado por entidades enquanto transporta móveis pesados."
+  }
+]} />
+
+</Section>

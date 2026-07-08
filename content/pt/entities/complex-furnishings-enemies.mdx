@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Eye, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Inimigos de Complex Furnishings: Guia de Sobrevivência e Lista de Entidades",
+  description: "Domine o estoque infinito em Complex Furnishings. Aprenda a identificar entidades, sobreviver a ambientes hostis e escapar das Backrooms em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fcd34d?text=Complex+Furnishings+Enemies+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Complex Furnishings"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Inimigos de Complex Furnishings** são ameaças ambientais e baseadas em entidades ativadas pela mecânica de \"estoque hostil\".
+- **Furtividade e Cooperativo** são suas principais defesas; o estoque reage agressivamente quando os móveis são removidos.
+- **Navegação por Pontos de Referência** é essencial para a sobrevivência, pois o layout infinito é projetado para desorientar os jogadores durante as perseguições.
+- **Zonas de Alerta Máximo** aparecem nas partes mais profundas do estoque, onde as taxas de manifestação de entidades aumentam significativamente.
+</Callout>
+
+<Section icon={Swords} title="Entendendo os Inimigos de Complex Furnishings">
+
+Nos corredores assustadores da experiência do Roblox *Complex Furnishings*, o principal antagonista não é apenas um único monstro, mas o próprio ambiente. Desenvolvido pela Real Mouse Productions e fortemente inspirado no terror liminar de Kane Parsons e da A24 (*The Backrooms*), este jogo introduz uma mecânica única de \"estoque hostil\". À medida que os jogadores tentam cumprir seu objetivo de pegar e vender móveis, o estoque começa a manifestar várias ameaças para proteger seu inventário infinito.
+
+Entender os **inimigos de Complex Furnishings** exige uma mudança de perspectiva. Você não é apenas um coletor; você é um intruso em um espaço que possui uma vontade coletiva e defensiva. Quanto mais fundo você se aventura no estoque, mais o ambiente se distorce para impedir sua saída.
+
+**Destaques do Vídeo:**
+- **Tensão Atmosférica**: Uma prévia do ambiente liminar da loja de móveis.
+- **Teasers de Entidades**: Breves vislumbres das sombras se movendo entre as prateleiras infinitas do estoque.
+- **Mecânicas Cooperativas**: Como os jogadores devem se coordenar para detectar ameaças antes que elas piorem.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+<Callout type="warning" title="Aviso de Hostilidade">
+O nível de agressão do estoque aumenta com base na quantidade de móveis que sua equipe tentou remover. Quanto mais você pega, mais ativas as entidades se tornam.
+</Callout>
+
+| Tipo de Ameaça | Padrão de Comportamento | Nível de Perigo | Método de Detecção |
+| :--- | :--- | :--- | :--- |
+| **Perseguidores do Estoque** | Seguem os jogadores de longe, aproximando-se quando as luzes piscam. | **Alto** | Pistas sonoras, estática, distorção visual. |
+| **Mímicos Ambientais** | Disfarçam-se como móveis comuns até que alguém se aproxime. | **Médio** | Posicionamento incomum, leve movimento. |
+| **A Mente Coletiva** | Uma força coletiva que sela saídas e redireciona corredores. | **Extremo** | Mudança nos padrões do piso, portas que desaparecem. |
+| **Sombras Liminares** | Entidades rápidas que aparecem na visão periférica. | **Baixo** | Movimento rápido em cantos escuros. |
+
+</Section>
+
+<Section icon={Eye} title="Classificação e Identificação de Entidades">
+
+Identificar os **inimigos de Complex Furnishings** antes que eles ataquem é a diferença entre uma coleta bem-sucedida e uma estadia permanente no estoque. Essas entidades não seguem os clichês padrão de terror do Roblox; elas são projetadas para explorar o \"vale da estranheza\" de um ambiente de varejo.
+
+As entidades costumam se manifestar como distorções do tema da loja de móveis. Por exemplo, uma prateleira que estava vazia há um momento pode de repente aparecer abastecida com itens que parecem \"errados\" em textura ou cor. Esses são sinais de alerta precoce de que uma entidade está se manifestando nas suas proximidades.
+
+<Callout type="tip" title="Dica Profissional de Identificação">
+Use sua lanterna com moderação. Embora ela ajude você a enxergar, certas entidades no estoque infinito são atraídas por fontes de luz artificial.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pistas Visuais">
+    - **Luzes Piscando**: Indica que uma entidade está se movendo pela rede elétrica.
+    - **Distorção de Textura**: Paredes ou móveis parecendo \"derreter\" ou vibrar.
+    - **Deslocamento de Sombra**: Sombras que não se alinham com as fontes de luz da sala.
+  </Card>
+  <Card title="Pistas Auditivas">
+    - **Arrastar Distante**: O som de móveis sendo movidos em salas adjacentes.
+    - **Zumbido**: Um zumbido de baixa frequência que se intensifica perto de zonas hostis.
+    - **Ecos de Passos**: Ouvir passos extras que não pertencem à sua equipe.
+  </Card>
+</CardGrid>
+
+| Tipo de Sala | Principal Tipo de Inimigo | Taxa de Surgimento | Prioridade de Sobrevivência |
+| :--- | :--- | :--- | :--- |
+| **Salão de Exposição** | Mímicos | 15% | Alta (Verifique os móveis) |
+| **Estoque Infinito** | Perseguidores | 65% | Extrema (Continue se movendo) |
+| **Docas de Carga** | A Mente Coletiva | 40% | Média (Fique de olho nas saídas) |
+| **Túneis de Manutenção** | Sombras | 80% | Alta (Controle da lanterna) |
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Sobrevivência e Táticas de Evasão">
+
+Sobreviver aos encontros com os **inimigos de Complex Furnishings** exige uma abordagem disciplinada em relação ao movimento e ao gerenciamento de inventário. Como o jogo foi feito para o modo cooperativo, sua estratégia deve envolver toda a equipe. Separar-se costuma ser uma sentença de morte, pois o estoque pode alterar dinamicamente seu layout para isolar jogadores solitários.
+
+<Steps>
+  <Step num="1" title="Estabeleça um Perímetro">
+    Antes de entrar em uma nova seção do estoque, designe um \"batedor\" e um \"navegador\". O batedor procura móveis para vender, enquanto o navegador acompanha a rota de saída.
+  </Step>
+  <Step num="2" title="Monitore os Níveis de Agressão">
+    Preste atenção às pistas do ambiente. Se o zumbido das luzes fluorescentes se tornar ensurdecedor, significa que o estoque está atingindo um estado de alta hostilidade.
+  </Step>
+  <Step num="3" title="Execute uma Extração Silenciosa">
+    Ao mover móveis, evite arrastar os itens pelo chão. O ruído alerta as entidades próximas. Levantem os itens juntos no modo cooperativo para minimizar o som.
+  </Step>
+  <Step num="4" title="Utilize Zonas Seguras">
+    Certas áreas com iluminação mais brilhante e estável funcionam como zonas seguras temporárias. As entidades raramente entram nesses \"pontos de controle\" altamente iluminados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia Cooperativa">
+Designe um jogador para carregar um \"Item de Distração\" — um móvel barulhento que pode ser solto para atrair as entidades para longe do grupo principal durante uma fuga.
+</Callout>
+
+| Técnica de Evasão | Melhor Usada Contra | Eficácia | Fator de Risco |
+| :--- | :--- | :--- | :--- |
+| **Quebrar a Linha de Visão** | Perseguidores | ★★★★☆ | Baixo |
+| **Ficar Parado** | Sombras | ★★★☆☆ | Médio |
+| **Extração Rápida** | A Mente Coletiva | ★★☆☆☆ | Alto |
+| **Barricada de Móveis** | Mímicos | ★★★★★ | Baixo |
+
+</Section>
+
+<Section icon={Shield} title="Navegando pelo Ambiente Hostil">
+
+O próprio ambiente é um dos **inimigos mais perigosos de Complex Furnishings**. O estoque é infinito, o que significa que o mapeamento tradicional é impossível. Em vez disso, você deve confiar na \"Navegação Liminar\" — usando a natureza repetitiva das salas a seu favor.
+
+As entidades costumam usar a estrutura labiríntica para encurralar os jogadores. Ao entender os layouts comuns das salas, você pode prever onde uma entidade pode tentar interceptá-lo. Sempre procure por \"espaços de transição\", como corredores ou portas que oferecem múltiplos pontos de saída.
+
+<Callout type="warning" title="Perigo de Navegação">
+Não confie nas placas de \"Saída\". Em fases de alta hostilidade, o estoque inverterá essas placas para guiar os jogadores mais fundo no vazio infinito.
+</Callout>
+
+<Checklist
+  id="survival-kit"
+  title="Lista de Verificação de Sobrevivência Pré-Partida:"
+  items={[
+    "Verifique se todos os companheiros de equipe têm comunicação de voz ou texto funcionando",
+    "Identifique pelo menos dois móveis como pontos de referência perto da entrada",
+    "Certifique-se de que a 'Zona de Extração' esteja livre de detritos",
+    "Designe um 'Portador da Luz' para corredores escuros",
+    "Memorize o som de ativação de um 'Mímico'"
+  ]}
+/>
+
+| Tipo de Ponto de Referência | Significado | Associação de Perigo |
+| :--- | :--- | :--- |
+| **Sofá de Veludo Vermelho** | Ponto de surgimento frequente de Mímicos | Alto |
+| **Estantes Industriais** | Oferecem cobertura contra Perseguidores | Baixo |
+| **Pilares de Azulejos Amarelos** | Geralmente marcam a transição para uma nova zona | Médio |
+| **Luzes de Teto Quebradas** | Indicam uma zona de entidade de alta atividade | Extremo |
+
+</Section>
+
+<Section icon={Sparkles} title="Dicas Avançadas para o Meta de 2026">
+
+À medida que avançamos na temporada de meados de 2026, o meta para lidar com os **inimigos de Complex Furnishings** evoluiu. Jogadores profissionais agora usam a \"Ancoragem de Móveis\", uma técnica na qual itens específicos são deixados em portas para evitar que o estoque mude o layout da sala. Isso permite incursões muito mais longas nas seções mais profundas e lucrativas das backrooms.
+
+Outra tática emergente é o \"Mascaramento de Som\". Ao acionar intencionalmente uma entidade de baixo nível em uma área, as equipes podem mover grandes quantidades de móveis em outra área enquanto a \"atenção\" do estoque está desviada.
+
+<Callout type="tip" title="Estratégia de Especialista">
+A influência de 'Kane Parsons' significa que as entidades costumam seguir uma lógica baseada em som e visão. Se você não consegue vê-las e não está fazendo barulho, você está efetivamente invisível para 70% do catálogo atual de entidades.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="O Método da Âncora">
+    Deixe uma cadeira em cada terceira porta para estabilizar o mapa.
+  </Card>
+  <Card title="A Corrida de Isca">
+    Um jogador atrai a atenção enquanto outros dois extraem itens de alto valor.
+  </Card>
+  <Card title="Gerenciamento de Luz">
+    Mantenha uma sala escura para se esconder de perseguidores sensíveis à luz.
+  </Card>
+</CardGrid>
+
+| Equipamento/Tática | Custo/Esforço | Recompensa | Classificação no Meta |
+| :--- | :--- | :--- | :--- |
+| **Ancoragem de Móveis** | Médio | Mapa Estável | S-Tier |
+| **Mascaramento de Som** | Alto | Extração Segura | A-Tier |
+| **Corrida em Grupo** | Baixo | Saída Rápida | C-Tier |
+| **Rastejar Furtivo** | Médio | Evitar Detecção | B-Tier |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes de Complex Furnishings">
+
+Dominar as entidades do estoque infinito exige tempo e prática. Abaixo estão as perguntas mais comuns que os jogadores têm sobre a sobrevivência e o comportamento das entidades em *Complex Furnishings*.
+
+<FAQ items={[
+  {
+    question: "Quais são os inimigos mais perigosos de Complex Furnishings?",
+    answer: "Os Perseguidores do Estoque são considerados os mais perigosos porque se adaptam ao movimento do jogador. Ao contrário dos Mímicos, que são estacionários, os Perseguidores caçam ativamente e se coordenam com o ambiente para encurralar você."
+  },
+  {
+    question: "É possível matar os inimigos em Complex Furnishings?",
+    answer: "Não, você não pode matar as entidades. O jogo é uma experiência de terror de sobrevivência focada em evasão e furtividade. Sua única 'arma' é sua habilidade de despistar o estoque e usar móveis como obstáculos."
+  },
+  {
+    question: "A dificuldade aumenta quanto mais móveis eu vendo?",
+    answer: "Sim. O jogo apresenta um medidor de 'Agressão do Estoque'. Conforme o valor total dos móveis vendidos aumenta, a taxa de surgimento de entidades como a Mente Coletiva e os Perseguidores aumenta significativamente."
+  },
+  {
+    question: "Como sei se um móvel é um Mímico?",
+    answer: "Procure por animações sutis. Os Mímicos em Complex Furnishings ocasionalmente respiram ou mudam de peso. Se um móvel parecer ligeiramente fora do lugar em comparação com o resto da sala, aproxime-se com cuidado."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Fique sempre de olho no Discord oficial e nas atualizações dos desenvolvedores. Por ser uma experiência nova no Roblox, o comportamento das entidades e os layouts das salas estão sujeitos a atualizações frequentes e ajustes de balanceamento.
+</Callout>
+
+</Section>

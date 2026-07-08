@@ -1,1 +1,524 @@
-{}
+{
+  "en": {
+    "backrooms": [
+      {
+        "slug": "complex-furnishings-backrooms-furniture",
+        "file": "complex-furnishings-backrooms-furniture"
+      },
+      {
+        "slug": "complex-furnishings-backrooms",
+        "file": "complex-furnishings-backrooms"
+      },
+      {
+        "slug": "complex-furnishings-furniture-selling",
+        "file": "complex-furnishings-furniture-selling"
+      },
+      {
+        "slug": "complex-furnishings-selling-furniture",
+        "file": "complex-furnishings-selling-furniture"
+      },
+      {
+        "slug": "complex-furnishings-stealing-furniture",
+        "file": "complex-furnishings-stealing-furniture"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "complex-furnishings-codes",
+        "file": "complex-furnishings-codes"
+      }
+    ],
+    "entities": [
+      {
+        "slug": "complex-furnishings-captain-clark",
+        "file": "complex-furnishings-captain-clark"
+      },
+      {
+        "slug": "complex-furnishings-chase",
+        "file": "complex-furnishings-chase"
+      },
+      {
+        "slug": "complex-furnishings-enemies",
+        "file": "complex-furnishings-enemies"
+      },
+      {
+        "slug": "complex-furnishings-entities",
+        "file": "complex-furnishings-entities"
+      },
+      {
+        "slug": "complex-furnishings-monsters",
+        "file": "complex-furnishings-monsters"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "complex-furnishings-fan-trailer",
+        "file": "complex-furnishings-fan-trailer"
+      },
+      {
+        "slug": "complex-furnishings-gameplay",
+        "file": "complex-furnishings-gameplay"
+      },
+      {
+        "slug": "complex-furnishings-live",
+        "file": "complex-furnishings-live"
+      },
+      {
+        "slug": "complex-furnishings-teaser",
+        "file": "complex-furnishings-teaser"
+      },
+      {
+        "slug": "complex-furnishings-trailer",
+        "file": "complex-furnishings-trailer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "complex-furnishings-beginner-guide",
+        "file": "complex-furnishings-beginner-guide"
+      },
+      {
+        "slug": "complex-furnishings-guide",
+        "file": "complex-furnishings-guide"
+      },
+      {
+        "slug": "complex-furnishings-how-to-play",
+        "file": "complex-furnishings-how-to-play"
+      },
+      {
+        "slug": "complex-furnishings-survival-guide",
+        "file": "complex-furnishings-survival-guide"
+      },
+      {
+        "slug": "complex-furnishings-tips",
+        "file": "complex-furnishings-tips"
+      },
+      {
+        "slug": "complex-furnishings-walkthrough",
+        "file": "complex-furnishings-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "complex-furnishings-furniture",
+        "file": "complex-furnishings-furniture"
+      },
+      {
+        "slug": "complex-furnishings-hiding-spots",
+        "file": "complex-furnishings-hiding-spots"
+      },
+      {
+        "slug": "complex-furnishings-items",
+        "file": "complex-furnishings-items"
+      },
+      {
+        "slug": "complex-furnishings-props",
+        "file": "complex-furnishings-props"
+      },
+      {
+        "slug": "complex-furnishings-rooms",
+        "file": "complex-furnishings-rooms"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "complex-furnishings-controls",
+        "file": "complex-furnishings-controls"
+      },
+      {
+        "slug": "complex-furnishings-discord",
+        "file": "complex-furnishings-discord"
+      },
+      {
+        "slug": "complex-furnishings-mobile-glitch",
+        "file": "complex-furnishings-mobile-glitch"
+      },
+      {
+        "slug": "complex-furnishings-mobile",
+        "file": "complex-furnishings-mobile"
+      },
+      {
+        "slug": "complex-furnishings-pc",
+        "file": "complex-furnishings-pc"
+      },
+      {
+        "slug": "complex-furnishings-roblox",
+        "file": "complex-furnishings-roblox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "complex-furnishings-beta",
+        "file": "complex-furnishings-beta"
+      },
+      {
+        "slug": "complex-furnishings-coming-out",
+        "file": "complex-furnishings-coming-out"
+      },
+      {
+        "slug": "complex-furnishings-content-creator-access",
+        "file": "complex-furnishings-content-creator-access"
+      },
+      {
+        "slug": "complex-furnishings-new-game",
+        "file": "complex-furnishings-new-game"
+      },
+      {
+        "slug": "complex-furnishings-release-date",
+        "file": "complex-furnishings-release-date"
+      },
+      {
+        "slug": "complex-furnishings-tester-access",
+        "file": "complex-furnishings-tester-access"
+      }
+    ]
+  },
+  "es": {
+    "backrooms": [
+      {
+        "slug": "complex-furnishings-backrooms-furniture",
+        "file": "complex-furnishings-backrooms-furniture"
+      },
+      {
+        "slug": "complex-furnishings-backrooms",
+        "file": "complex-furnishings-backrooms"
+      },
+      {
+        "slug": "complex-furnishings-furniture-selling",
+        "file": "complex-furnishings-furniture-selling"
+      },
+      {
+        "slug": "complex-furnishings-selling-furniture",
+        "file": "complex-furnishings-selling-furniture"
+      },
+      {
+        "slug": "complex-furnishings-stealing-furniture",
+        "file": "complex-furnishings-stealing-furniture"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "complex-furnishings-codes",
+        "file": "complex-furnishings-codes"
+      }
+    ],
+    "entities": [
+      {
+        "slug": "complex-furnishings-captain-clark",
+        "file": "complex-furnishings-captain-clark"
+      },
+      {
+        "slug": "complex-furnishings-chase",
+        "file": "complex-furnishings-chase"
+      },
+      {
+        "slug": "complex-furnishings-enemies",
+        "file": "complex-furnishings-enemies"
+      },
+      {
+        "slug": "complex-furnishings-entities",
+        "file": "complex-furnishings-entities"
+      },
+      {
+        "slug": "complex-furnishings-monsters",
+        "file": "complex-furnishings-monsters"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "complex-furnishings-fan-trailer",
+        "file": "complex-furnishings-fan-trailer"
+      },
+      {
+        "slug": "complex-furnishings-gameplay",
+        "file": "complex-furnishings-gameplay"
+      },
+      {
+        "slug": "complex-furnishings-live",
+        "file": "complex-furnishings-live"
+      },
+      {
+        "slug": "complex-furnishings-teaser",
+        "file": "complex-furnishings-teaser"
+      },
+      {
+        "slug": "complex-furnishings-trailer",
+        "file": "complex-furnishings-trailer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "complex-furnishings-beginner-guide",
+        "file": "complex-furnishings-beginner-guide"
+      },
+      {
+        "slug": "complex-furnishings-guide",
+        "file": "complex-furnishings-guide"
+      },
+      {
+        "slug": "complex-furnishings-how-to-play",
+        "file": "complex-furnishings-how-to-play"
+      },
+      {
+        "slug": "complex-furnishings-survival-guide",
+        "file": "complex-furnishings-survival-guide"
+      },
+      {
+        "slug": "complex-furnishings-tips",
+        "file": "complex-furnishings-tips"
+      },
+      {
+        "slug": "complex-furnishings-walkthrough",
+        "file": "complex-furnishings-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "complex-furnishings-furniture",
+        "file": "complex-furnishings-furniture"
+      },
+      {
+        "slug": "complex-furnishings-hiding-spots",
+        "file": "complex-furnishings-hiding-spots"
+      },
+      {
+        "slug": "complex-furnishings-items",
+        "file": "complex-furnishings-items"
+      },
+      {
+        "slug": "complex-furnishings-props",
+        "file": "complex-furnishings-props"
+      },
+      {
+        "slug": "complex-furnishings-rooms",
+        "file": "complex-furnishings-rooms"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "complex-furnishings-controls",
+        "file": "complex-furnishings-controls"
+      },
+      {
+        "slug": "complex-furnishings-discord",
+        "file": "complex-furnishings-discord"
+      },
+      {
+        "slug": "complex-furnishings-mobile-glitch",
+        "file": "complex-furnishings-mobile-glitch"
+      },
+      {
+        "slug": "complex-furnishings-mobile",
+        "file": "complex-furnishings-mobile"
+      },
+      {
+        "slug": "complex-furnishings-pc",
+        "file": "complex-furnishings-pc"
+      },
+      {
+        "slug": "complex-furnishings-roblox",
+        "file": "complex-furnishings-roblox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "complex-furnishings-beta",
+        "file": "complex-furnishings-beta"
+      },
+      {
+        "slug": "complex-furnishings-coming-out",
+        "file": "complex-furnishings-coming-out"
+      },
+      {
+        "slug": "complex-furnishings-content-creator-access",
+        "file": "complex-furnishings-content-creator-access"
+      },
+      {
+        "slug": "complex-furnishings-new-game",
+        "file": "complex-furnishings-new-game"
+      },
+      {
+        "slug": "complex-furnishings-release-date",
+        "file": "complex-furnishings-release-date"
+      },
+      {
+        "slug": "complex-furnishings-tester-access",
+        "file": "complex-furnishings-tester-access"
+      }
+    ]
+  },
+  "pt": {
+    "backrooms": [
+      {
+        "slug": "complex-furnishings-backrooms-furniture",
+        "file": "complex-furnishings-backrooms-furniture"
+      },
+      {
+        "slug": "complex-furnishings-backrooms",
+        "file": "complex-furnishings-backrooms"
+      },
+      {
+        "slug": "complex-furnishings-furniture-selling",
+        "file": "complex-furnishings-furniture-selling"
+      },
+      {
+        "slug": "complex-furnishings-selling-furniture",
+        "file": "complex-furnishings-selling-furniture"
+      },
+      {
+        "slug": "complex-furnishings-stealing-furniture",
+        "file": "complex-furnishings-stealing-furniture"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "complex-furnishings-codes",
+        "file": "complex-furnishings-codes"
+      }
+    ],
+    "entities": [
+      {
+        "slug": "complex-furnishings-captain-clark",
+        "file": "complex-furnishings-captain-clark"
+      },
+      {
+        "slug": "complex-furnishings-chase",
+        "file": "complex-furnishings-chase"
+      },
+      {
+        "slug": "complex-furnishings-enemies",
+        "file": "complex-furnishings-enemies"
+      },
+      {
+        "slug": "complex-furnishings-entities",
+        "file": "complex-furnishings-entities"
+      },
+      {
+        "slug": "complex-furnishings-monsters",
+        "file": "complex-furnishings-monsters"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "complex-furnishings-fan-trailer",
+        "file": "complex-furnishings-fan-trailer"
+      },
+      {
+        "slug": "complex-furnishings-gameplay",
+        "file": "complex-furnishings-gameplay"
+      },
+      {
+        "slug": "complex-furnishings-live",
+        "file": "complex-furnishings-live"
+      },
+      {
+        "slug": "complex-furnishings-teaser",
+        "file": "complex-furnishings-teaser"
+      },
+      {
+        "slug": "complex-furnishings-trailer",
+        "file": "complex-furnishings-trailer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "complex-furnishings-beginner-guide",
+        "file": "complex-furnishings-beginner-guide"
+      },
+      {
+        "slug": "complex-furnishings-guide",
+        "file": "complex-furnishings-guide"
+      },
+      {
+        "slug": "complex-furnishings-how-to-play",
+        "file": "complex-furnishings-how-to-play"
+      },
+      {
+        "slug": "complex-furnishings-survival-guide",
+        "file": "complex-furnishings-survival-guide"
+      },
+      {
+        "slug": "complex-furnishings-tips",
+        "file": "complex-furnishings-tips"
+      },
+      {
+        "slug": "complex-furnishings-walkthrough",
+        "file": "complex-furnishings-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "complex-furnishings-furniture",
+        "file": "complex-furnishings-furniture"
+      },
+      {
+        "slug": "complex-furnishings-hiding-spots",
+        "file": "complex-furnishings-hiding-spots"
+      },
+      {
+        "slug": "complex-furnishings-items",
+        "file": "complex-furnishings-items"
+      },
+      {
+        "slug": "complex-furnishings-props",
+        "file": "complex-furnishings-props"
+      },
+      {
+        "slug": "complex-furnishings-rooms",
+        "file": "complex-furnishings-rooms"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "complex-furnishings-controls",
+        "file": "complex-furnishings-controls"
+      },
+      {
+        "slug": "complex-furnishings-discord",
+        "file": "complex-furnishings-discord"
+      },
+      {
+        "slug": "complex-furnishings-mobile-glitch",
+        "file": "complex-furnishings-mobile-glitch"
+      },
+      {
+        "slug": "complex-furnishings-mobile",
+        "file": "complex-furnishings-mobile"
+      },
+      {
+        "slug": "complex-furnishings-pc",
+        "file": "complex-furnishings-pc"
+      },
+      {
+        "slug": "complex-furnishings-roblox",
+        "file": "complex-furnishings-roblox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "complex-furnishings-beta",
+        "file": "complex-furnishings-beta"
+      },
+      {
+        "slug": "complex-furnishings-coming-out",
+        "file": "complex-furnishings-coming-out"
+      },
+      {
+        "slug": "complex-furnishings-content-creator-access",
+        "file": "complex-furnishings-content-creator-access"
+      },
+      {
+        "slug": "complex-furnishings-new-game",
+        "file": "complex-furnishings-new-game"
+      },
+      {
+        "slug": "complex-furnishings-release-date",
+        "file": "complex-furnishings-release-date"
+      },
+      {
+        "slug": "complex-furnishings-tester-access",
+        "file": "complex-furnishings-tester-access"
+      }
+    ]
+  }
+}

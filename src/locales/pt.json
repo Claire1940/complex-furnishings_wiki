@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Guia",
+    "codes": "Códigos",
+    "release": "Lançamento",
+    "gameplay": "Gameplay",
+    "backrooms": "Backrooms",
+    "entities": "Entidades",
+    "items": "Itens",
+    "platform": "Plataforma"
+  }
+}

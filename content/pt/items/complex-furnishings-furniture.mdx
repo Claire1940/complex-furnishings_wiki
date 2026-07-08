@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "complex furnishings: Guia de Início e Estratégias de Sobrevivência",
+  description: "Domine o Complex Furnishings no Roblox. Aprenda a explorar o estoque infinito, coletar móveis, evitar entidades e cumprir sua meta de vendas com segurança.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Complex+Furnishings+Survival+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de complex furnishings",
+  keywords: "complex furnishings, roblox, guia, sobrevivência, horror, estoque"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Explore o estoque infinito e sinistro para coletar móveis e arrastá-los de volta para sua loja para cumprir sua meta de vendas.
+- **Ameaça dos Backrooms**: O estoque é um espaço liminar hostil inspirado no trabalho de Kane Parsons; ele resiste ativamente à sua exploração.
+- **Entidades Temidas**: Cuidado com perseguidores implacáveis como o Capitão Clark e perigos tipo quebra-cabeça como Still Life.
+- **Vantagem Cooperativa**: Jogue no modo cooperativo para coordenar rotas, vigiar pontos cegos e compartilhar a carga física de itens pesados.
+- **Progressão Chave**: Ganhe dinheiro com vendas bem-sucedidas de móveis para comprar melhorias vitais como resistência e velocidade.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos em complex furnishings">
+
+Bem-vindo ao **complex furnishings**, uma experiência de terror cooperativa sinistra no Roblox desenvolvida pela Real Mouse Productions. O ciclo principal de jogabilidade mistura gerenciamento de varejo com exploração tensa ao estilo backrooms. Sua tarefa é administrar uma loja de móveis enquanto seu chefe, Clark, está fora da cidade. Para manter o showroom apresentável e satisfazer clientes exigentes, você deve cruzar o limiar para "O Complexo" — um estoque infinito em forma de labirinto que não quer que você leve seu inventário.
+
+**Destaques do Vídeo:**
+- **A Premissa Central**: Transição perfeita de um showroom de móveis padrão para um labirinto de estoque aterrorizante e iluminado por fluorescentes.
+- **Mecânicas de Arrastar**: Aprenda como agarrar, carregar e arrastar fisicamente itens pesados de volta para a zona de segurança da loja.
+- **Gerenciamento de Resistência**: Ficar sem fôlego enquanto carrega sofás ou cadeiras pesadas deixa você completamente vulnerável.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Complex Furnishings Teaser Trailer" />
+
+Para jogar o jogo, visite a [Página Oficial do Complex Furnishings no Roblox](https://www.roblox.com/games/140202088182537/Complex-Furnishings). A tabela abaixo destaca as especificações fundamentais da experiência:
+
+| Métrica | Detalhes | Impacto no Jogador |
+| --- | --- | --- |
+| **Desenvolvedor** | Real Mouse Productions | Espere atualizações regulares e correções da comunidade. |
+| **Plataforma** | Roblox (Todos os Dispositivos) | Acessível em PC, Mobile e Console. |
+| **Data de Lançamento** | 7 de julho de 2026 | Lançado recentemente; as estratégias meta ainda estão evoluindo. |
+| **Gênero** | Terror Co-op / Tycoon | O trabalho em equipe aumenta drasticamente as taxas de sobrevivência e lucro. |
+| **Ciclo Principal** | Coletar, Arrastar, Vender | A exploração de alto risco financia diretamente as melhorias da sua loja. |
+
+<Callout type="warning" title="Aviso de Resistência">
+Arrastar móveis esgota sua resistência rapidamente. Nunca agarre itens pesados como guarda-roupas ou mesas de jantar se suspeitar que uma entidade está patrulhando por perto, pois sua velocidade de movimento será severamente penalizada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Encontrar, Arrastar e Vender Móveis">
+
+Para ter sucesso em **complex furnishings**, você deve dominar a arte do saque. O estoque infinito está cheio de objetos aleatórios, mas apenas itens específicos podem ser interagidos e arrastados de volta para a loja. Identificar alvos de alto valor e gerenciar sua capacidade de carga é a chave para atingir sua meta diária.
+
+<CardGrid cols={3}>
+  <Card title="Itens Pequenos (Luminárias, Cadeiras)">
+    - **Baixo gasto de resistência**
+    - Fácil de navegar por corredores estreitos
+    - Pagamento individual menor, mas altamente eficiente para jogadores solo
+  </Card>
+  <Card title="Itens Médios (Sofás, Escrivaninhas)">
+    - **Gasto moderado de resistência**
+    - Requer caminhos desimpedidos para arrastar com eficácia
+    - Bom equilíbrio entre risco e recompensa para duplas coordenadas
+  </Card>
+  <Card title="Itens Grandes (Guarda-roupas, Camas)">
+    - **Gasto extremo de resistência**
+    - Reduz significativamente sua velocidade de caminhada
+    - Alto valor de mercado; melhor garantido com colegas de equipe protegendo você
+  </Card>
+</CardGrid>
+
+Use o processo passo a passo abaixo para estabelecer uma rotina de coleta eficiente durante seus turnos:
+
+<Steps>
+  <Step num="1" title="Localize a Entrada do Estoque">
+    Encontre a porta de transição atrás do showroom. Certifique-se de que sua lanterna esteja totalmente carregada antes de atravessar.
+  </Step>
+  <Step num="2" title="Identifique Móveis Interativos">
+    Procure por peças de móveis destacadas ou em pé nas salas. Se um item estiver parafusado no chão ou atravessando o cenário, ignore-o e avance mais fundo.
+  </Step>
+  <Step num="3" title="Segure e Arraste">
+    Interaja com o objeto para começar a arrastá-lo. Caminhe de costas em direção à saída, mantendo sua câmera voltada para frente para vigiar ameaças repentinas.
+  </Step>
+  <Step num="4" title="Processe e Venda">
+    Traga o item de volta para o showroom. Coloque-o estrategicamente para atrair clientes, garantir a venda e cumprir sua meta.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Limpeza de Caminho">
+Antes de pegar móveis grandes, percorra o caminho de volta à saída uma vez para garantir que nenhum objeto aleatório ou cantos de parede apertados bloqueiem sua retirada durante uma perseguição.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guia de Sobrevivência: Entidades e Perigos">
+
+O estoque está longe de estar abandonado. Conforme você se aventura mais fundo no complexo, encontrará entidades hostis projetadas para interromper seu progresso. A sobrevivência depende de reconhecer pistas visuais, ouvir sinais sonoros e saber quando soltar sua carga para correr.
+
+A tabela a seguir detalha as principais ameaças descobertas no estoque até agora:
+
+| Nome da Entidade | Nível de Ameaça | Padrão de Comportamento | Estratégia de Contra-ataque |
+| --- | --- | --- | --- |
+| **Capitão Clark** | ★★★★★ | Patrulha os corredores implacavelmente; persegue ao avistar. | Quebre a linha de visão; esconda-se atrás de grandes prateleiras de estoque. |
+| **Still Life** | ★★★★☆ | Perigo de quebra-cabeça estacionário; bloqueia rotas importantes. | Observe seus gatilhos de movimento; não toque diretamente. |
+| **As Paredes Sussurrantes** | ★★☆☆☆ | Emite sinais sonoros sinistros para desorientar os jogadores. | Use marcos visuais em vez de confiar puramente no som. |
+
+<Callout type="success" title="Prioridade de Melhoria">
+Sempre priorize melhorar sua **Resistência** e **Velocidade de Corrida** no terminal da loja antes de comprar melhorias cosméticas. Sobreviver a incursões profundas no estoque é impossível sem atributos físicos aprimorados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist do Turno Diário">
+
+Para manter sua loja operacional e evitar falhar em seu turno sob a supervisão de Clark, complete esta checklist em cada incursão:
+
+<Checklist
+  id="daily-shift-tasks"
+  title="Objetivos do Turno:"
+  items={[
+    "Verificar o quadro de metas diárias de clientes antes de entrar no estoque",
+    "Limpar caminhos perto da entrada do estoque para rotas de arrasto rápidas",
+    "Garantir pelo menos três peças de móveis de alto valor por incursão",
+    "Melhorar a resistência do seu personagem no terminal sempre que os fundos permitirem",
+    "Coordenar com os membros da equipe para cobrir todos os caminhos de saída"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como escapo do estoque quando me perco?",
+    answer: "O estoque é infinito e labiríntico. Sua melhor estratégia é seguir os acabamentos amarelados das paredes e marcar seu caminho usando objetos descartados e não interativos. Se ouvir passos pesados, esconda-se imediatamente."
+  },
+  {
+    question: "Posso jogar Complex Furnishings sozinho?",
+    answer: "Sim, mas é altamente recomendado jogar em modo cooperativo. Ter colegas de equipe permite dividir as tarefas de batedor para entidades, limpar caminhos e arrastar móveis pesados de volta para a loja com segurança."
+  },
+  {
+    question: "O que devo fazer quando o Capitão Clark me avistar?",
+    answer: "Solte qualquer móvel que esteja arrastando imediatamente para restaurar sua velocidade máxima de movimento. Corra pelas curvas para quebrar a linha de visão e agache-se atrás de prateleiras até que seus passos desapareçam."
+  },
+  {
+    question: "Existem códigos ativos para o Complex Furnishings?",
+    answer: "Atualmente, não há códigos de resgate ativos publicados na página oficial do Roblox. Fique de olho no servidor oficial do Discord (discord.gg/complexfurnishings) para lançamentos de códigos durante grandes atualizações."
+  }
+]} />
+
+</Section>

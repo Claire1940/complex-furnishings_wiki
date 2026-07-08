@@ -10,7 +10,16 @@
       "twitterDescription": "Complex Furnishings Wiki covers Roblox codes, items, rooms, entities, updates, and survival routes for Backrooms players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "release": "Release",
+    "gameplay": "Gameplay",
+    "backrooms": "Backrooms",
+    "entities": "Entities",
+    "items": "Items",
+    "platform": "Platform"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -447,125 +456,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Complex Furnishings Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced survival strategies for the backrooms furniture store.",
-      "metaTitle": "Complex Furnishings Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Complex Furnishings guides covering beginner tips, survival strategies, rooms, entities, and expert tactics for mastering the backrooms furniture experience.",
+    "guide": {
+      "title": "Complex Furnishings Guide",
+      "description": "Complete Complex Furnishings guide covering beginner basics, survival strategies, stockroom navigation, and co-op tactics.",
+      "metaTitle": "Complex Furnishings Guide - Beginner Tips & Survival Strategies",
+      "metaDescription": "Master Complex Furnishings with beginner tips, survival strategies, stockroom navigation, and co-op tactics for the backrooms furniture store.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and room navigation. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What is the Complex Furnishings Guide?",
+      "whatIsDescription": "Comprehensive Complex Furnishings guides covering gameplay mechanics, survival strategies, and stockroom navigation. Learn everything from your first steps to advanced co-op tactics.",
+      "why": "Why read Complex Furnishings guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the survival loop and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the backrooms",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and co-op survival"
+        "step1Description": "Understand the survival loop, stockroom rules, and common beginner mistakes",
+        "step2Title": "Survive Longer",
+        "step2Description": "Follow proven paths to navigate the backrooms and avoid danger",
+        "step3Title": "Master Co-op Play",
+        "step3Description": "Develop advanced tactics for group exploration and team survival"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
+    "codes": {
+      "title": "Complex Furnishings Codes",
+      "description": "Latest Complex Furnishings codes for free rewards, plus where to find new code drops and how to redeem them.",
+      "metaTitle": "Complex Furnishings Codes - Free Rewards & Redeem Guide",
+      "metaDescription": "Get free rewards with active Complex Furnishings codes. Find where new codes drop and learn how to redeem them in the Roblox backrooms game.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Complex Furnishings Codes?",
+      "whatIsDescription": "Complex Furnishings codes are redeemable rewards released by the developers. They can grant free items, boosts, or in-game currency when entered on the official Roblox game page.",
+      "why": "Why check Complex Furnishings codes?",
+      "whySteps": {
+        "step1Title": "Claim Free Rewards",
+        "step1Description": "Redeem active codes for free items, boosts, and in-game currency",
+        "step2Title": "Catch New Drops",
+        "step2Description": "Track the official sources where new codes appear first",
+        "step3Title": "Redeem Correctly",
+        "step3Description": "Learn the exact steps to enter codes and avoid redeem errors"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "release": {
+      "title": "Complex Furnishings Release",
+      "description": "Track Complex Furnishings release dates, beta access, tester programs, and content creator access details.",
+      "metaTitle": "Complex Furnishings Release Date - Beta, Tester & Creator Access",
+      "metaDescription": "Find the Complex Furnishings release date, beta access, tester program, and content creator access details for the Roblox backrooms game.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Complex Furnishings Release Info?",
+      "whatIsDescription": "Release information for Complex Furnishings including the launch date, beta phases, tester access, and content creator programs. Track when new versions and features go live.",
+      "why": "Why follow Complex Furnishings release news?",
+      "whySteps": {
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Find the official release date and current access state of the game",
+        "step2Title": "Join Beta Access",
+        "step2Description": "Learn how to join beta phases and tester programs early",
+        "step3Title": "Get Creator Access",
+        "step3Description": "Understand how content creators can gain early access"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Info"
+    },
+    "gameplay": {
+      "title": "Complex Furnishings Gameplay",
+      "description": "Watch Complex Furnishings gameplay trailers, teasers, live streams, and fan videos showing the backrooms furniture store in action.",
+      "metaTitle": "Complex Furnishings Gameplay - Trailers, Teasers & Live Streams",
+      "metaDescription": "Watch Complex Furnishings gameplay through official trailers, teasers, live streams, and fan videos revealing the backrooms furniture store experience.",
+      "categoryLabel": "GAMEPLAY VIDEOS",
+      "whatIs": "What is Complex Furnishings Gameplay?",
+      "whatIsDescription": "Complex Furnishings gameplay videos include official trailers, teasers, live streams, and fan-made clips. They show the backrooms furniture store, stockroom exploration, and survival moments in action.",
+      "why": "Why watch Complex Furnishings gameplay?",
+      "whySteps": {
+        "step1Title": "See the Game in Action",
+        "step1Description": "Watch trailers and teasers to understand the core loop before playing",
+        "step2Title": "Learn from Players",
+        "step2Description": "Pick up survival routes and tactics from live streams and fan clips",
+        "step3Title": "Spot New Content",
+        "step3Description": "Catch new rooms, furniture, and entities revealed in update videos"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Videos"
+    },
+    "backrooms": {
+      "title": "Complex Furnishings Backrooms",
+      "description": "Explore Complex Furnishings backrooms areas, furniture selling routes, money-making loops, and safe paths through the stockroom.",
+      "metaTitle": "Complex Furnishings Backrooms - Rooms, Selling & Money Routes",
+      "metaDescription": "Master the Complex Furnishings backrooms with room guides, furniture selling routes, money-making loops, and safe paths through the infinite stockroom.",
+      "categoryLabel": "BACKROOMS & SELLING",
+      "whatIs": "What are the Complex Furnishings Backrooms?",
+      "whatIsDescription": "The Complex Furnishings backrooms are the liminal stockroom areas where players explore rooms, grab furniture, and sell it for profit. Learn the layout, selling logic, and safe routes.",
+      "why": "Why explore the Complex Furnishings backrooms?",
+      "whySteps": {
+        "step1Title": "Learn Room Layouts",
+        "step1Description": "Understand how rooms connect and which areas are safe or dangerous",
+        "step2Title": "Sell Furniture for Profit",
+        "step2Description": "Build efficient money loops by grabbing and selling the right furniture",
+        "step3Title": "Find Safe Routes",
+        "step3Description": "Memorize landmarks and escape paths to avoid getting lost"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Backrooms Guides"
+    },
+    "entities": {
+      "title": "Complex Furnishings Entities",
+      "description": "Learn every Complex Furnishings entity, monster behavior, chase mechanics, and survival tactics to avoid danger in the stockroom.",
+      "metaTitle": "Complex Furnishings Entities - Monsters, Chases & Survival",
+      "metaDescription": "Complete Complex Furnishings entities guide covering monsters, hostile threats, chase mechanics, and survival tactics for the backrooms stockroom.",
+      "categoryLabel": "ENTITIES & THREATS",
+      "whatIs": "What are Complex Furnishings Entities?",
+      "whatIsDescription": "Complex Furnishings entities are the hostile monsters and threats inside the stockroom. Learn where each entity appears, how it behaves, and the safest way to avoid or escape it.",
+      "why": "Why study Complex Furnishings entities?",
+      "whySteps": {
+        "step1Title": "Recognize Threats Early",
+        "step1Description": "Identify danger signs and entity spawns before a chase starts",
+        "step2Title": "React to Chases",
+        "step2Description": "Learn the right movement and escape route for each entity type",
+        "step3Title": "Survive Longer",
+        "step3Description": "Build habits that keep you and your co-op team alive"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Entities"
+    },
     "items": {
       "title": "Complex Furnishings Items",
-      "description": "Detailed item guides covering furniture, props, room objects, and navigation clues with usage tips.",
+      "description": "Detailed Complex Furnishings item guides covering furniture, props, room objects, and navigation clues with usage tips.",
       "metaTitle": "Complex Furnishings Items - Furniture, Props & Objects Guide",
-      "metaDescription": "Complete item database for Complex Furnishings including furniture, props, and stockroom objects. Learn how every item works and how to use it for navigation.",
+      "metaDescription": "Complete Complex Furnishings items database covering furniture, props, and stockroom objects. Learn how every item works and how to use it for navigation.",
       "categoryLabel": "ITEMS & OBJECTS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for furniture, props, and functional objects. Learn usage strategies and how items help you navigate the stockroom.",
-      "why": "Why check item guides?",
+      "whatIs": "What are Complex Furnishings Items?",
+      "whatIsDescription": "Complex Furnishings items include furniture, props, and stockroom objects. Learn each item's role, value, and how to use objects as landmarks while exploring.",
+      "why": "Why check Complex Furnishings item guides?",
       "whySteps": {
         "step1Title": "Learn Object Roles",
         "step1Description": "Discover how furniture and props work in the game environment",
         "step2Title": "Navigate Safely",
-        "step2Description": "Use items as landmarks to remember safe routes",
+        "step2Description": "Use items as landmarks to remember safe routes through the stockroom",
         "step3Title": "Improve Survival",
         "step3Description": "Read the environment to avoid traps and danger zones"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
-    "rooms": {
-      "title": "Complex Furnishings Rooms",
-      "description": "Explore room types, area structures, resource locations, and survival tips for each backrooms zone.",
-      "metaTitle": "Complex Furnishings Rooms - Areas & Exploration",
-      "metaDescription": "Explore Complex Furnishings rooms including the furniture store, infinite stockroom, and backrooms areas. Find routes, avoid dangers, and navigate the liminal spaces.",
-      "categoryLabel": "ROOMS & AREAS",
-      "whatIs": "What are Rooms?",
-      "whatIsDescription": "Guides to different room types, area features, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore rooms?",
+    "platform": {
+      "title": "Complex Furnishings Platform",
+      "description": "Complex Furnishings platform guides covering Roblox access, PC, mobile, controls, Discord, and device-specific tips.",
+      "metaTitle": "Complex Furnishings Platform - Roblox, PC, Mobile & Controls",
+      "metaDescription": "Play Complex Furnishings on the right platform with guides for Roblox access, PC, mobile, controls, Discord community, and device-specific tips.",
+      "categoryLabel": "PLATFORM & DEVICES",
+      "whatIs": "What is the Complex Furnishings Platform?",
+      "whatIsDescription": "Complex Furnishings is a Roblox experience playable on PC, mobile, and other supported devices. Learn how to join, configure controls, fix mobile glitches, and connect through Discord.",
+      "why": "Why check Complex Furnishings platform guides?",
       "whySteps": {
-        "step1Title": "Find Routes",
-        "step1Description": "Locate safe paths and key landmarks in the stockroom",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile entities",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right approach for each room type"
+        "step1Title": "Pick the Right Device",
+        "step1Description": "Compare PC, mobile, and other supported platforms for the best experience",
+        "step2Title": "Set Up Controls",
+        "step2Description": "Configure controls and fix mobile glitches for smoother gameplay",
+        "step3Title": "Join the Community",
+        "step3Description": "Connect through the official Discord for help, updates, and co-op"
       },
       "featured": "Featured & Essential",
-      "all": "All Rooms"
-    },
-    "entities": {
-      "title": "Complex Furnishings Entities",
-      "description": "Learn about monsters, hostile threats, chase mechanics, and how to survive each entity.",
-      "metaTitle": "Complex Furnishings Entities - Monsters & Survival",
-      "metaDescription": "Complete Complex Furnishings entities guide covering monsters, threats, chase moments, and survival tactics for the backrooms furniture store.",
-      "categoryLabel": "ENTITIES & THREATS",
-      "whatIs": "What are Entities?",
-      "whatIsDescription": "Guides to monsters, hostile threats, and survival mechanics. Learn how to react to each entity and stay alive in the stockroom.",
-      "why": "Why study entities?",
-      "whySteps": {
-        "step1Title": "Recognize Threats",
-        "step1Description": "Identify danger signs before a chase starts",
-        "step2Title": "React Correctly",
-        "step2Description": "Learn the right movement for each entity type",
-        "step3Title": "Survive Longer",
-        "step3Description": "Build habits that keep your co-op team alive"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Entities"
-    },
-    "selling": {
-      "title": "Complex Furnishings Selling",
-      "description": "Master furniture selling, money routes, and efficient stockroom runs to maximize profit.",
-      "metaTitle": "Complex Furnishings Selling - Money & Routes Guide",
-      "metaDescription": "Master Complex Furnishings selling with money routes, furniture value guides, and efficient stockroom run strategies.",
-      "categoryLabel": "SELLING & MONEY",
-      "whatIs": "What is Selling?",
-      "whatIsDescription": "Guides to selling furniture, money-making routes, and profit strategies. Learn how to turn exploration into steady income.",
-      "why": "Why learn selling?",
-      "whySteps": {
-        "step1Title": "Earn Faster",
-        "step1Description": "Find the most efficient furniture to grab and sell",
-        "step2Title": "Plan Routes",
-        "step2Description": "Build repeatable money loops through the stockroom",
-        "step3Title": "Stay Safe",
-        "step3Description": "Balance profit with survival during threat moments"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Selling Guides"
-    },
-    "updates": {
-      "title": "Complex Furnishings Updates",
-      "description": "Track release dates, patch notes, new rooms, furniture, and entity additions.",
-      "metaTitle": "Complex Furnishings Updates - Patch Notes & Release Info",
-      "metaDescription": "Get the latest Complex Furnishings updates including release dates, patch notes, new rooms, furniture, and entity additions.",
-      "categoryLabel": "UPDATES & NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Track version changes, release dates, and new content drops for Complex Furnishings.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "Know when new rooms, furniture, or entities appear",
-        "step2Title": "Catch New Codes",
-        "step2Description": "Be first to find redeem codes tied to updates",
-        "step3Title": "Adapt Strategy",
-        "step3Description": "Adjust your routes as the game changes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Platform Guides"
     }
   }
 }

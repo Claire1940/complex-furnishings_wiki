@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Complex Furnishings: Guía Completa de Movimiento y Supervivencia",
+  description: "Domina los controles de Complex Furnishings para sobrevivir al almacén infinito. Aprende atajos de movimiento clave, interacciones con muebles y rutas de escape.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Movement+and+Survival+Controls",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Complex Furnishings",
+  keywords: "controles, supervivencia, movimiento, complex furnishings, roblox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Controles Principales**: Aprende a navegar, correr e interactuar con los artículos en el almacén infinito.
+- **Complex Furnishings**: Un juego de supervivencia cooperativo en Roblox fuertemente inspirado en la película Backrooms de A24 de Kane Parsons.
+- **Ciclo Principal**: Busca en el espacio de venta, transporta muebles, evita entidades hostiles y vende mercancía para asegurar fondos.
+- **Estrategia de Equipo**: Manteneos unidos en el modo cooperativo para vigilar los puntos ciegos y coordinar rutas de escape.
+- **Regla de Supervivencia**: Muévete con deliberación, mantén un registro del diseño de las habitaciones y suelta los muebles pesados cuando comience una persecución.
+</Callout>
+
+<Section icon={Map} title="Controles e Interfaz de Complex Furnishings">
+
+Navegar por el almacén infinito en [Complex Furnishings](https://www.roblox.com/games/140202088182537/Complex-Furnishings) requiere un dominio firme del esquema de controles básico del juego. Debido a que esta experiencia de Roblox mezcla la exploración de espacios liminales con el manejo de muebles basado en la física, tu tiempo de reacción impacta directamente en tu supervivencia. 
+
+**Puntos destacados del video:**
+- **Diseño de la tienda**: Aprende cómo la sala de exhibición minorista transiciona hacia el hostil almacén infinito.
+- **Física de los muebles**: Observa cómo transportar objetos ralentiza a tu personaje y altera tus opciones de escape.
+- **Identificación de entidades**: Observa los patrones de movimiento de las entidades hostiles del almacén.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+Transportar objetos pesados introduce penalizaciones de movimiento, lo que dificulta el escape cuando las cosas salen mal. Familiarízate con los controles básicos a continuación para asegurarte de no quedar atrapado en un rincón estrecho.
+
+| Tecla de entrada | Acción | Contexto y Uso |
+|---|---|---|
+| **W, A, S, D** | Mover personaje | Navegación estándar por salas de exhibición y pasillos |
+| **Shift** | Correr | Aumenta la velocidad pero agota la resistencia rápidamente |
+| **E** | Interactuar / Agarrar | Recoger muebles, abrir puertas o registrar contenedores |
+| **G** | Soltar objeto | Suelta instantáneamente el mueble transportado para recuperar la velocidad total |
+| **Espacio** | Saltar | Saltar sobre obstáculos bajos o navegar por caminos bloqueados |
+
+<Callout type="warning" title="Penalización por Física">
+Transportar piezas de muebles grandes como sofás o armarios reduce significativamente tu velocidad al caminar y correr. Si escuchas que se acerca una amenaza, presiona la tecla de soltar inmediatamente para recuperar tu movilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Supervivencia y Gestión de Riesgos">
+
+El éxito en este juego no se trata solo de agarrar el sofá más caro; se trata de regresar vivo a la sala de exhibición. El almacén no quiere que te lleves su inventario, y cuanto más profundo explores, más agresivo se vuelve el entorno.
+
+<CardGrid cols={3}>
+  <Card title="Fase de Sala de Exhibición">
+    - **Zona segura**
+    - Objetos de bajo valor
+    - Ideal para planificar rutas
+  </Card>
+  <Card title="Almacén Superficial">
+    - **Peligro moderado**
+    - Stock de muebles estándar
+    - Rutas de escape claras
+  </Card>
+  <Card title="Almacén Profundo">
+    - **Peligro extremo**
+    - Objetos raros de alto valor
+    - Pasillos laberínticos
+  </Card>
+</CardGrid>
+
+Para maximizar tus ganancias minimizando el riesgo, compara los diferentes niveles de objetos que puedes recuperar del almacén:
+
+| Nivel de objeto | Peso promedio | Nivel de riesgo | Estrategia óptima |
+|---|---|---|---|
+| **Accesorios ligeros** | Muy ligero | Bajo | Lleva varios; sigue corriendo |
+| **Sillas estándar** | Medio | Bajo | Bueno para incursiones en solitario; velocidad moderada |
+| **Sofás pesados** | Pesado | Medio | Transportar en parejas; despejar ruta de salida primero |
+| **Armarios raros** | Extremadamente pesado | Alto | Usar jugadores cooperativos como vigías |
+
+<Callout type="tip" title="Gestión de Resistencia">
+Nunca dejes que tu barra de resistencia se agote por completo mientras estés en lo profundo del almacén. Siempre mantén al menos un 25% de tu resistencia reservada para secuencias de persecución repentinas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Exploración Paso a Paso">
+
+Para los principiantes que entran al almacén infinito por primera vez, un enfoque estructurado es esencial. Correr ciegamente hacia el laberinto llevará rápidamente a un enfrentamiento con las entidades hostiles del almacén.
+
+<Steps>
+  <Step num="1" title="Asegura la salida de la sala de exhibición">
+    Localiza la entrada principal que conduce desde la sala de exhibición segura hacia el almacén. Antes de entrar, asegúrate de conocer el camino más rápido de regreso a este umbral de seguridad.
+  </Step>
+  <Step num="2" title="Identifica objetos de referencia">
+    Al entrar, busca grupos de muebles únicos o señales. Usa estos accesorios distintivos para mapear mentalmente tu ruta y no perder el sentido de la orientación en habitaciones repetidas.
+  </Step>
+  <Step num="3" title="Evalúa el valor del objeto frente al peso">
+    Selecciona objetos que coincidan con tu margen de seguridad actual. No intentes arrastrar un armario pesado desde habitaciones profundas a menos que tus compañeros de equipo estén vigilando activamente los pasillos.
+  </Step>
+  <Step num="4" title="Ejecuta un barrido cooperativo">
+    Haz que un jugador actúe como transportador mientras el otro actúa como navegador y vigía. El vigía debe mantener un camino despejado detrás del transportador en todo momento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja Cooperativa">
+Jugar con amigos permite encadenar relevos de muebles. Puedes lanzar o soltar objetos cerca de los umbrales para que tus compañeros los lleven de regreso, manteniendo a tus corredores ligeros y listos para huir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos Diarios y Lista de Verificación">
+
+Para acumular fondos de manera eficiente, establece una rutina constante para cada incursión. Concéntrate en completar objetivos de bajo riesgo antes de intentar traslados de alto valor en zonas más profundas y peligrosas.
+
+<Checklist
+  id="daily-survival-goals"
+  title="Hitos esenciales de la incursión:"
+  items={[
+    "Establecer una ruta visual clara con puntos de referencia de regreso a la sala de exhibición",
+    "Asegurar al menos tres accesorios ligeros durante tu barrido inicial",
+    "Coordinar roles con tus compañeros de equipo antes de entrar en zonas profundas",
+    "Practicar soltar muebles pesados instantáneamente cuando suene una señal de amenaza",
+    "Extraer con éxito una pieza de mueble de alto valor sin activar una persecución"
+  ]}
+/>
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para actualizaciones en tiempo real, notas del parche y estrategias de la comunidad, únete al [Discord oficial de Complex Furnishings](https://discord.gg/complexfurnishings). Mantenerse al día con las discusiones de la comunidad es una excelente manera de descubrir nuevos trucos de rutas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambian los controles de Complex Furnishings al transportar muebles pesados?",
+    answer: "Transportar muebles pesados penaliza fuertemente tu velocidad de movimiento y agota rápidamente tu resistencia al correr. Debes soltar manualmente el objeto usando la tecla G para restaurar tu movilidad predeterminada."
+  },
+  {
+    question: "¿Cuál es la mejor manera de evitar perderse en el almacén infinito?",
+    answer: "Utiliza disposiciones de muebles únicas, marcas en las paredes y puertas abiertas como puntos de referencia físicos. Mantén siempre una imagen mental clara de las últimas dos habitaciones por las que pasaste."
+  },
+  {
+    question: "¿Hay códigos activos disponibles para Complex Furnishings?",
+    answer: "Actualmente, no hay códigos de canje activos publicados en la página oficial de Roblox o en los canales sociales. Mantente atento al Discord oficial de la comunidad para futuros lanzamientos de códigos."
+  },
+  {
+    question: "¿Puedo jugar Complex Furnishings completamente solo?",
+    answer: "Sí, pero el juego está diseñado pensando en el juego cooperativo. Jugar solo aumenta el riesgo de ser acorralado por entidades mientras transportas muebles pesados."
+  }
+]} />
+
+</Section>

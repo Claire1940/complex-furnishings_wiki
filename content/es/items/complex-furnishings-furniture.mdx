@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "complex furnishings: Guía para Principiantes y Estrategias de Supervivencia",
+  description: "Domina Complex Furnishings en Roblox. Aprende a explorar el almacén infinito, recolectar muebles, evitar entidades y cumplir con tu cuota de ventas de forma segura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Complex+Furnishings+Survival+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de complex furnishings",
+  keywords: "roblox, terror, supervivencia, muebles, guía, complex furnishings"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Explora el inquietante almacén infinito para recolectar muebles y arrastrarlos de vuelta a tu tienda para cumplir con la cuota de ventas.
+- **Amenaza de los Backrooms**: El almacén es un espacio liminal hostil inspirado en la obra de Kane Parsons; se resiste activamente a tu exploración.
+- **Entidades Temidas**: Ten cuidado con los acosadores implacables como Captain Clark y los peligros tipo acertijo como Still Life.
+- **Ventaja Cooperativa**: Juega en modo cooperativo para coordinar rutas, vigilar puntos ciegos y compartir la carga física de los objetos pesados.
+- **Progresión Clave**: Gana dinero con las ventas exitosas de muebles para comprar mejoras vitales como resistencia y velocidad.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en complex furnishings">
+
+Bienvenido a **complex furnishings**, una inquietante experiencia de terror cooperativo en Roblox desarrollada por Real Mouse Productions. El ciclo de juego principal combina la gestión de una tienda minorista con una tensa exploración al estilo de los backrooms. Tu tarea es dirigir una tienda de muebles mientras tu jefe, Clark, está fuera de la ciudad. Para mantener la tienda presentable y satisfacer a los exigentes clientes, debes cruzar el umbral hacia \"El Complejo\", un almacén infinito similar a un laberinto que no quiere que te lleves su inventario.
+
+**Puntos destacados del video:**
+- **La Premisa Central**: Transición fluida de una sala de exposición de muebles estándar a un aterrador laberinto de almacén iluminado por fluorescentes.
+- **Mecánicas de Arrastre**: Aprende a agarrar, cargar y arrastrar físicamente objetos pesados de vuelta a la zona de seguridad de la tienda.
+- **Gestión de Resistencia**: Quedarse sin aliento mientras arrastras sofás o sillas pesadas te deja completamente vulnerable.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Complex Furnishings Teaser Trailer" />
+
+Para jugar, visita la [Página Oficial de Roblox de Complex Furnishings](https://www.roblox.com/games/140202088182537/Complex-Furnishings). La siguiente tabla destaca las especificaciones fundamentales de la experiencia:
+
+| Métrica | Detalles | Impacto en el Jugador |
+| --- | --- | --- |
+| **Desarrollador** | Real Mouse Productions | Espera actualizaciones regulares y correcciones impulsadas por la comunidad. |
+| **Plataforma** | Roblox (Todos los dispositivos) | Accesible en PC, móviles y consolas. |
+| **Fecha de Lanzamiento** | 7 de julio de 2026 | Recién lanzado; las estrategias meta aún están evolucionando. |
+| **Género** | Terror Cooperativo / Tycoon | El trabajo en equipo aumenta drásticamente las tasas de supervivencia y ganancias. |
+| **Ciclo Principal** | Recolectar, Arrastrar, Vender | La exploración de alto riesgo financia directamente las mejoras de tu tienda. |
+
+<Callout type="warning" title="Advertencia de Resistencia">
+Arrastrar muebles agota tu resistencia rápidamente. Nunca agarres objetos pesados como armarios o mesas de comedor si sospechas que hay una entidad patrullando cerca, ya que tu velocidad de movimiento se verá gravemente penalizada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Encontrar, Arrastrar y Vender Muebles">
+
+Para tener éxito en **complex furnishings**, debes dominar el arte del saqueo. El almacén infinito está lleno de accesorios aleatorios, pero solo se puede interactuar con objetos específicos para arrastrarlos de vuelta a la tienda. Identificar objetivos de alto valor y gestionar tu capacidad de carga es clave para alcanzar tu cuota diaria.
+
+<CardGrid cols={3}>
+  <Card title="Objetos Pequeños (Lámparas, Sillas)">
+    - **Bajo consumo de resistencia**
+    - Fácil de navegar por pasillos estrechos
+    - Menor pago individual pero muy eficiente para jugadores en solitario
+  </Card>
+  <Card title="Objetos Medianos (Sofás, Escritorios)">
+    - **Consumo moderado de resistencia**
+    - Requiere caminos despejados para arrastrar con eficacia
+    - Buen equilibrio entre riesgo y recompensa para dúos coordinados
+  </Card>
+  <Card title="Objetos Grandes (Armarios, Camas)">
+    - **Consumo extremo de resistencia**
+    - Ralentiza significativamente tu velocidad al caminar
+    - Alto valor de mercado; es mejor asegurarlos con compañeros protegiéndote
+  </Card>
+</CardGrid>
+
+Utiliza el proceso paso a paso a continuación para establecer una rutina de salvamento eficiente durante tus turnos:
+
+<Steps>
+  <Step num="1" title="Localiza la Entrada del Almacén">
+    Encuentra la puerta de transición detrás de tu sala de exposición. Asegúrate de que tu linterna esté completamente cargada antes de cruzar.
+  </Step>
+  <Step num="2" title="Identifica Muebles Interactuables">
+    Escanea las habitaciones en busca de muebles resaltados o de pie. Si un objeto está atornillado o atravesando el entorno, ignóralo y avanza más profundo.
+  </Step>
+  <Step num="3" title="Asegurar y Arrastrar">
+    Interactúa con el objeto para empezar a arrastrarlo. Camina hacia atrás en dirección a la salida, manteniendo la cámara orientada hacia adelante para vigilar amenazas repentinas.
+  </Step>
+  <Step num="4" title="Procesar y Vender">
+    Lleva el objeto de vuelta a la sala de exposición. Colócalo estratégicamente para atraer clientes, asegurar la venta y cumplir con tu cuota.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de Despeje de Caminos">
+Antes de agarrar muebles grandes, recorre el camino de regreso a la salida una vez para asegurarte de que ningún accesorio aleatorio o esquinas estrechas bloqueen tu retirada durante una persecución.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de Supervivencia: Entidades y Peligros">
+
+El almacén está lejos de estar abandonado. A medida que te adentres en el complejo, encontrarás entidades hostiles diseñadas para detener tu progreso. La supervivencia depende de reconocer señales visuales, escuchar pistas de audio y saber cuándo soltar tu carga para correr.
+
+La siguiente tabla detalla las principales amenazas descubiertas en el almacén hasta ahora:
+
+| Nombre de la Entidad | Nivel de Amenaza | Patrón de Comportamiento | Estrategia de Contraataque |
+| --- | --- | --- | --- |
+| **Captain Clark** | ★★★★★ | Patrulla los pasillos sin descanso; persigue al avistar. | Rompe la línea de visión; escóndete detrás de estanterías grandes. |
+| **Still Life** | ★★★★☆ | Peligro de acertijo estacionario; bloquea rutas clave. | Observa sus activadores de movimiento; no lo toques directamente. |
+| **The Whispering Walls** | ★★☆☆☆ | Emite pistas de audio inquietantes para desorientar. | Usa puntos de referencia visuales en lugar de confiar puramente en el sonido. |
+
+<Callout type="success" title="Prioridad de Mejora">
+Siempre prioriza mejorar tu **Resistencia** y **Velocidad de Sprint** en la terminal de la tienda antes de comprar mejoras cosméticas. Sobrevivir a incursiones profundas en el almacén es imposible sin estadísticas físicas mejoradas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación del Turno Diario">
+
+Para mantener tu tienda operativa y evitar fallar en tu turno bajo la supervisión de Clark, completa esta lista en cada incursión:
+
+<Checklist
+  id="daily-shift-tasks"
+  title="Objetivos del Turno:"
+  items={[
+    "Revisar el tablero de cuotas diarias de clientes antes de entrar al almacén",
+    "Despejar caminos cerca de la entrada del almacén para rutas de arrastre rápidas",
+    "Asegurar al menos tres piezas de muebles de alto valor por incursión",
+    "Mejorar la resistencia de tu personaje en la terminal siempre que los fondos lo permitan",
+    "Coordinar con los miembros del equipo para cubrir todos los caminos de salida"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo escapo del almacén cuando me pierdo?",
+    answer: "El almacén es infinito y similar a un laberinto. Tu mejor estrategia es seguir los bordes amarillos de las paredes y marcar tu camino usando accesorios descartados no interactuables. Si escuchas pasos pesados, escóndete de inmediato."
+  },
+  {
+    question: "¿Puedo jugar Complex Furnishings solo?",
+    answer: "Sí, pero se recomienda encarecidamente jugar en cooperativo. Tener compañeros de equipo te permite dividir las tareas de exploración de entidades, despeje de caminos y arrastre de muebles pesados a la tienda de forma segura."
+  },
+  {
+    question: "¿Qué debo hacer cuando Captain Clark me detecta?",
+    answer: "Suelta inmediatamente cualquier mueble que estés arrastrando para recuperar tu velocidad máxima de movimiento. Corre doblando esquinas para romper la línea de visión y agáchate detrás de las estanterías hasta que sus pasos se desvanezcan."
+  },
+  {
+    question: "¿Hay códigos activos para Complex Furnishings?",
+    answer: "Actualmente, no hay códigos de canje activos publicados en la página oficial de Roblox. Mantente atento al servidor oficial de Discord (discord.gg/complexfurnishings) para lanzamientos de códigos durante actualizaciones importantes."
+  }
+]} />
+
+</Section>

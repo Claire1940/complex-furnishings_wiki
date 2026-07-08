@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Salas de Complex Furnishings: Guia de Sobrevivência e Navegação nas Backrooms",
+  description: "Domine todas as salas de complex furnishings no Roblox. Aprenda a navegar pelo estoque infinito, identificar zonas seguras, encontrar itens e escapar de entidades hostis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1e2e/fff?text=Backrooms+Rooms+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de complex furnishings"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Navegar pelas **salas de complex furnishings** para coletar estoque de móveis enquanto evita entidades hostis.
+- **O Layout do Mapa**: Uma loja de móveis liminar e labiríntica que se transforma em um estoque infinito e hostil.
+- **Vantagem do Co-op**: Fique perto de sua equipe para cobrir múltiplos ângulos e evitar se perder em corredores repetitivos.
+- **Regra de Sobrevivência Chave**: Priorize sua rota de fuga em vez de saques gananciosos quando o ambiente começar a mudar.
+- **Hub da Comunidade**: Junte-se ao servidor oficial do Discord em `discord.gg/complexfurnishings` para atualizações em tempo real e busca de grupos.
+</Callout>
+
+<Section icon={Map} title="Salas de Complex Furnishings: O Layout do Estoque Infinito">
+
+A experiência principal das **salas de complex furnishings** gira em torno de explorar um armazém de varejo liminar e aparentemente infinito. Desenvolvido pela Real Mouse Productions, esta experiência de terror no Roblox desafia os jogadores a se aventurarem profundamente em um estoque infinito inspirado na clássica lore das Backrooms. Ao contrário dos jogos de sobrevivência padrão, o próprio ambiente reage à sua presença, resistindo quando você tenta pegar seu inventário.
+
+**Destaques do Vídeo:**
+- Prévia visual dos ambientes de varejo misteriosos e de tom amarelado.
+- Demonstração de como fachadas de lojas normais se transformam em labirintos de estoque claustrofóbicos.
+- Apresentação de movimentos básicos e percepção espacial.
+
+<YouTubeEmbed videoId="u8mXBIVhNwk" title="Teaser | Complex Furnishings" />
+
+Navegar por essas salas requer uma compreensão das fases de transição. O jogo começa em um showroom de móveis reconhecível, mas conforme você passa pelas portas duplas, o layout se torna cada vez mais instável. Os corredores entram em loop, as luzes fluorescentes piscam e a geometria estrutural desafia a física lógica.
+
+| Zona da Sala | Nível de Perigo | Objetivo Principal | Principais Recursos |
+|--- |--- |--- |--- |
+| **Showroom** | Muito Baixo | Área inicial, reunião de equipe | Expositores estruturados e bem iluminados, zona segura |
+| **Corredores Principais** | Médio | Hub de navegação, saque básico | Corredores amplos, prateleiras altas, visibilidade moderada |
+| **Estoque Profundo** | Alto | Móveis de alto nível, exploração intensa | Caminhos labirínticos, luzes piscantes, cantos apertados |
+| **Corredores Liminares** | Extremo | Trânsito rápido, rotas de fuga | Papel de parede amarelo repetitivo, teto baixo, alta geração de entidades |
+
+<Callout type="warning" title="Evite se Separar">
+Não vagueie pelas salas do estoque profundo sozinho. Como o layout usa blocos repetitivos e pistas visuais confusas, perder de vista sua equipe torna a navegação e a sobrevivência significativamente mais difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Navegação e Sobrevivência Passo a Passo">
+
+Sobreviver às salas estranhas em Complex Furnishings requer uma abordagem sistemática de exploração. Em vez de correr sem rumo pelos corredores, siga esta progressão estruturada para maximizar sua taxa de sobrevivência e garantir com sucesso o estoque de móveis.
+
+<Steps>
+  <Step num="1" title="Garanta um Ponto de Referência na Entrada">
+    Antes de entrar no estoque, designe um ponto de referência claro perto das portas de transição. Use arranjos de móveis distintos ou placas para marcar seu caminho de saída.
+  </Step>
+  <Step num="2" title="Estabeleça um Sistema de Duplas">
+    Divida seu lobby em duplas. Um jogador deve se concentrar em explorar o caminho à frente e localizar objetos valiosos, enquanto o segundo jogador monitora os corredores traseiros e laterais em busca de ameaças repentinas.
+  </Step>
+  <Step num="3" title="Mapeie as Conexões das Salas">
+    Conforme você se move de sala em sala, observe as mudanças estruturais. Se você encontrar uma série de corredores idênticos de paredes amarelas, marque seu progresso movendo pequenos objetos ou deixando portas específicas abertas.
+  </Step>
+  <Step num="4" title="Execute uma Extração Cautelosa">
+    Assim que seu inventário estiver cheio ou os níveis de perigo aumentarem, refaça seus passos metodicamente. Evite correr, a menos que esteja sendo ativamente perseguido, pois passos barulhentos podem atrair atenção indesejada de salas distantes.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Use Pistas Ambientais">
+Luzes piscando no teto e ruídos distantes de zumbido geralmente sinalizam que você está se aproximando de zonas de alto risco. Se as luzes de uma sala se apagarem completamente, pare seu progresso e procure abrigo imediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tipos de Salas e Mecânicas Ambientais">
+
+Compreender as diferenças entre os tipos de salas é essencial para a sobrevivência a longo prazo. O estoque infinito é dividido em vários setores distintos, cada um apresentando perigos ambientais únicos e padrões de distribuição de itens.
+
+<CardGrid cols={3}>
+  <Card title="O Showroom de Varejo">
+    - **Refúgio Seguro**: Nenhuma entidade hostil surge nesta zona inicial.
+    - **Hub de Equipe**: Perfeito para organizar seu grupo e planejar rotas.
+    - **Baixo Valor**: Contém móveis básicos com valor de venda mínimo.
+  </Card>
+  <Card title="O Estoque Infinito">
+    - **Alto Risco**: Entidades hostis patrulham ativamente esses corredores estreitos.
+    - **Saque Denso**: Repleto de valiosos conjuntos de móveis e objetos.
+    - **Navegação Complexa**: Apresenta layouts repetitivos e becos sem saída.
+  </Card>
+  <Card title="Os Corredores Liminares">
+    - **Perigo Extremo**: Caminhos estreitos com pouquíssimos esconderijos.
+    - **Alta Mobilidade**: Útil para atravessar rapidamente entre os setores.
+    - **Geometria Instável**: Os caminhos podem mudar ou entrar em loop inesperadamente.
+  </Card>
+</CardGrid>
+
+Para navegar com sucesso por essas áreas, os jogadores devem aprender a identificar os marcadores de transição sutis. A tabela abaixo detalha as pistas visuais e auditivas associadas a cada setor principal.
+
+| Tipo de Setor | Pistas Visuais | Sinais Auditivos | Estratégia Ideal |
+|--- |--- |--- |--- |
+| **Showroom** | Luzes fluorescentes brilhantes, carpetes limpos | Zumbido suave de varejo, música distante | Reunir equipe, planejar rota, verificar itens iniciais |
+| **Estoque** | Prateleiras altas de aço, caixas de papelão | Sons metálicos ecoando, zumbido baixo | Mova-se devagar, atenha-se a corredores mais largos, verifique os cantos |
+| **Corredores** | Papel de parede amarelo, carpetes úmidos | Zumbido fluorescente alto, passos | Corra apenas quando necessário, localize nichos próximos |
+
+<Callout type="success" title="Identifique Nichos Seguros">
+Fique atento a pequenos nichos recuados e espaços de rastreamento. Essas lacunas estruturais são esconderijos altamente eficazes ao tentar quebrar a linha de visão com entidades perseguidoras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Exploração e Guia de Itens">
+
+À medida que você explora mais fundo as **salas de complex furnishings**, seu objetivo principal é localizar inventários de alto valor, mantendo um caminho claro para a segurança. Use a lista de verificação abaixo para acompanhar seus objetivos de progressão durante cada partida.
+
+<Checklist
+  id="stockroom-milestones"
+  title="Marcos Críticos de Exploração:"
+  items={[
+    "Localizar e memorizar a rota de saída primária do Showroom.",
+    "Identificar pelo menos três nichos seguros distintos na zona do Estoque.",
+    "Extrair com sucesso uma peça de mobiliário de alto nível sem acionar uma perseguição.",
+    "Estabelecer um sistema de comunicação claro com seus parceiros de co-op.",
+    "Navegar por um loop completo dos Corredores Liminares e retornar em segurança."
+  ]}
+/>
+
+Para maximizar sua eficiência, priorize objetos de alto valor que ofereçam a melhor relação risco-recompensa. Salas bagunçadas costumam conter itens ocultos, mas também restringem seus movimentos durante momentos de alta pressão.
+
+| Tipo de Objeto | Localização Comum | Utilidade / Valor | Dica para o Jogador |
+|--- |--- |--- |--- |
+| **Estoque de Móveis** | Estoque Profundo | Alto valor, peso pesado | Use peças grandes para bloquear visualmente caminhos estreitos |
+| **Objetos de Sala** | Showroom e Estoque | Valor médio, fácil de carregar | Mova objetos para marcar salas e corredores explorados |
+| **Placas Visuais** | Zonas de Transição | Ponto de referência de navegação | Sempre avise seus companheiros de equipe sobre a localização das placas |
+| **Prateleiras de Armazenamento** | Corredores do Estoque | Obstáculo / Ponto de escalada | Suba em prateleiras baixas para obter uma visão melhor da sala |
+
+<Callout type="info" title="Peso e Movimento">
+Carregar itens de mobiliário mais pesados reduz significativamente sua velocidade de movimento. Certifique-se sempre de que um companheiro de equipe esteja limpando o caminho à frente ao transportar estoque de alto valor por corredores estreitos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudar você a sobreviver às profundezas assustadoras do estoque infinito, compilamos respostas para as perguntas mais comuns sobre navegação, mecânicas de sala e estratégias de sobrevivência.
+
+<FAQ items={[
+  {
+    question: "Como evito me perder nas salas de complex furnishings?",
+    answer: "A melhor estratégia é estabelecer pontos de referência visuais claros. Use objetos de sala móveis para marcar interseções exploradas, siga uma técnica consistente de seguir a parede (como manter a parede esquerda ao seu lado) e coordene de perto com seus parceiros de co-op."
+  },
+  {
+    question: "Os layouts das salas mudam dinamicamente durante uma partida?",
+    answer: "Sim. O jogo apresenta uma geometria mutável inspirada nas backrooms. Embora os setores gerais permaneçam consitentes, corredores, portas e caminhos específicos podem entrar em loop ou alterar suas conexões à medida que você explora mais a fundo."
+  },
+  {
+    question: "O que devo fazer se as luzes de uma sala se apagarem completamente?",
+    answer: "Pare imediatamente o seu movimento e procure o nicho seguro ou canto mais próximo. A escuridão geralmente sinaliza um aumento na atividade das entidades. Aguarde as luzes se estabilizarem antes de retomar a exploração."
+  },
+  {
+    question: "Existe um mapa ou radar disponível para ajudar a navegar no estoque?",
+    answer: "Não há mapa ou sistema de radar no jogo. A navegação depende inteiramente da percepção espacial, comunicação da equipe e posicionamento estratégico de pontos de referência físicos por todo o ambiente."
+  }
+]} />
+
+</Section>
