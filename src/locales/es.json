@@ -1,12 +1,630 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Complex Furnishings - Códigos, objetos y habitaciones",
+      "description": "La wiki de Complex Furnishings cubre códigos de Roblox, objetos, habitaciones, venta de muebles, consejos para principiantes, entidades, actualizaciones y rutas de supervivencia para jugadores de Backrooms.",
+      "keywords": "Complex Furnishings, Roblox, códigos, objetos, habitaciones, entidades, guía de Backrooms",
+      "ogTitle": "Wiki de Complex Furnishings - Códigos, objetos y habitaciones",
+      "ogDescription": "La wiki de Complex Furnishings cubre códigos de Roblox, objetos, habitaciones, venta de muebles, consejos para principiantes, entidades, actualizaciones y rutas de supervivencia para jugadores de Backrooms.",
+      "twitterTitle": "Wiki de Complex Furnishings - Códigos, objetos y habitaciones",
+      "twitterDescription": "La wiki de Complex Furnishings cubre códigos de Roblox, objetos, habitaciones, entidades, actualizaciones y rutas de supervivencia para jugadores de Backrooms."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "codes": "Códigos",
     "release": "Lanzamiento",
-    "gameplay": "Gameplay",
+    "gameplay": "Jugabilidad",
     "backrooms": "Backrooms",
     "entities": "Entidades",
     "items": "Objetos",
     "platform": "Plataforma"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Juego de supervivencia y muebles de Backrooms",
+    "title": "Wiki de Complex Furnishings",
+    "description": "Complex Furnishings es un juego de Roblox al estilo de Backrooms donde los jugadores exploran habitaciones liminales, venden muebles, evitan el peligro y aprenden rutas, objetos y actualizaciones.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "22,75k",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "1.496",
+        "label": "Jugadores actuales"
+      },
+      "stat3": {
+        "value": "7 de jul.",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat4": {
+        "value": "Roblox",
+        "label": "Plataforma"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Complex Furnishings",
+    "description": "Explora una tienda de muebles al estilo backrooms, sobrevive al almacén infinito y sigue rutas cooperativas en esta experiencia de terror de Roblox creada por Real Mouse Productions."
+  },
+  "tools": {
+    "title": "Complex Furnishings",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para explorar, sobrevivir y vender muebles en Complex Furnishings",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Códigos de Complex Furnishings",
+        "description": "Fuentes de códigos activos, caducados y próximos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Complex Furnishings",
+        "description": "Primeros pasos y cómo empezar a jugar"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Enlace del juego Complex Furnishings",
+        "description": "Página oficial de Roblox y cómo unirse"
+      },
+      {
+        "icon": "Eye",
+        "title": "Mapa y habitaciones de Complex Furnishings",
+        "description": "Áreas de la tienda, el almacén y los backrooms"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Monstruos y supervivencia de Complex Furnishings",
+        "description": "Amenazas, persecuciones y movimiento seguro"
+      },
+      {
+        "icon": "Package",
+        "title": "Muebles y objetos de Complex Furnishings",
+        "description": "Objetos, accesorios y pistas de navegación"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Discord y actualizaciones de Complex Furnishings",
+        "description": "Comunidad, canal del creador y noticias"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Estadísticas y popularidad de Complex Furnishings",
+        "description": "Analíticas públicas y señales de actividad"
+      }
+    ]
+  },
+  "modules": {
+    "complexFurnishingsCodes": {
+      "title": "Códigos de Complex Furnishings",
+      "subtitle": "Consulta los códigos activos y caducados de Complex Furnishings, además de los lugares oficiales donde deberían aparecer los nuevos códigos.",
+      "intro": "Actualmente, Complex Furnishings no muestra ningún código de canje oficial en su página de juego de Roblox. Las fuentes de códigos más seguras son la página oficial de la experiencia en Roblox, la invitación de Discord de Complex Furnishings y el canal de YouTube de sushiclozy vinculado al teaser.",
+      "cards": [
+        {
+          "label": "Códigos activos",
+          "status": "ninguno",
+          "codes": [],
+          "note": "Aún no se han publicado códigos de canje activos de Complex Furnishings en la página oficial de Roblox."
+        },
+        {
+          "label": "Códigos caducados",
+          "status": "ninguno",
+          "codes": [],
+          "note": "Aún no hay códigos oficiales caducados. Esta sección rastreará cualquier código que deje de funcionar."
+        },
+        {
+          "label": "Dónde consultar nuevos códigos",
+          "status": "fuentes-oficiales",
+          "sources": [
+            {
+              "name": "Página del juego de Roblox",
+              "use": "Revisa la descripción del juego y las notas de actualización para nuevos lanzamientos de códigos."
+            },
+            {
+              "name": "Discord de Complex Furnishings",
+              "use": "Presta atención a los anuncios, publicaciones de lanzamiento y actualizaciones de la comunidad."
+            },
+            {
+              "name": "YouTube de sushiclozy",
+              "use": "Sigue los videos de teasers y actualizaciones de desarrollo para revelaciones de códigos."
+            }
+          ]
+        }
+      ]
+    },
+    "complexFurnishingsBeginnerGuide": {
+      "title": "Guía para principiantes de Complex Furnishings",
+      "subtitle": "Aprende la idea básica del juego, qué hacer primero y cómo entender su extraño entorno de tienda de muebles.",
+      "intro": "Complex Furnishings es una experiencia cooperativa de Roblox de Real Mouse Productions. La descripción oficial dice que tu tienda de muebles tiene un almacén infinito, pero el almacén no quiere que te lleves nada, con el juego inspirado en la película The Backrooms de A24 y Kane Parsons.",
+      "steps": [
+        {
+          "title": "Abre la página oficial de Roblox",
+          "description": "Usa la página oficial de la experiencia de Roblox para el enlace de juego real, el nombre del creador, la descripción, la pestaña de la tienda y la pestaña de servidores."
+        },
+        {
+          "title": "Comprende la premisa central",
+          "description": "Estás dentro de una tienda de muebles con un almacén infinito. El atractivo principal es explorar un espacio comercial de aspecto normal que se convierte en un extraño entorno al estilo de los backrooms."
+        },
+        {
+          "title": "Juega con el modo cooperativo en mente",
+          "description": "La página oficial marca el juego como cooperativo, por lo que los principiantes deberían considerar la exploración como algo más seguro y claro con otros jugadores cerca."
+        },
+        {
+          "title": "Muévete despacio por el almacén",
+          "description": "La descripción dice que el almacén no quiere que los jugadores se lleven nada, por lo que los nuevos jugadores deben explorar con cuidado en lugar de correr por las habitaciones."
+        },
+        {
+          "title": "Usa las actualizaciones oficiales para nuevas mecánicas",
+          "description": "Sigue la página de Roblox, la invitación de Discord y el canal de teasers de sushiclozy para actualizaciones de lanzamiento, noticias de códigos y cambios en la jugabilidad."
+        }
+      ]
+    },
+    "complexFurnishingsGameLink": {
+      "title": "Enlace del juego Complex Furnishings y cómo jugar",
+      "subtitle": "Usa la página oficial de Roblox para unirte a Complex Furnishings y verificar su estado de acceso actual.",
+      "intro": "La página oficial de Roblox de Complex Furnishings es el lugar principal para jugar al juego. Muestra el nombre de la experiencia, el creador, la descripción, la pestaña de la tienda, la pestaña de servidores y la nota de compatibilidad de dispositivos.",
+      "cards": [
+        {
+          "title": "Experiencia oficial de Roblox",
+          "value": "Complex Furnishings",
+          "description": "Esta es la página oficial del juego para unirse, agregar a favoritos, revisar servidores y leer la descripción del juego.",
+          "href": "https://www.roblox.com/games/140202088182537/Complex-Furnishings"
+        },
+        {
+          "title": "Creador",
+          "value": "Real Mouse Productions",
+          "description": "La página de Roblox muestra a Real Mouse Productions como el creador de Complex Furnishings.",
+          "href": "https://www.roblox.com/games/140202088182537/Complex-Furnishings"
+        },
+        {
+          "title": "Compatibilidad de dispositivos",
+          "value": "Todos los dispositivos",
+          "description": "La descripción oficial incluye una nota de todos los dispositivos, lo que hace que el juego sea relevante para los jugadores de Roblox en computadoras y dispositivos móviles.",
+          "href": "https://www.roblox.com/games/140202088182537/Complex-Furnishings"
+        },
+        {
+          "title": "Estilo de multijugador",
+          "value": "Cooperativo",
+          "description": "La página oficial describe la experiencia como cooperativa, por lo que el estilo de juego previsto es la exploración en grupo en lugar de solo jugar en solitario.",
+          "href": "https://www.roblox.com/games/140202088182537/Complex-Furnishings"
+        },
+        {
+          "title": "Rastreador de estadísticas",
+          "value": "RoMonitor Stats",
+          "description": "Usa la página de experiencias de RoMonitor para consultar las estadísticas públicas de Roblox, como las tendencias de rendimiento y actividad.",
+          "href": "https://romonitorstats.com/experience/140202088182537/performance/"
+        }
+      ]
+    },
+    "complexFurnishingsMapAndRooms": {
+      "title": "Guía de mapas y habitaciones de Complex Furnishings",
+      "subtitle": "Entiende el entorno principal, el flujo de las habitaciones y las zonas al estilo de los backrooms antes de entrar al almacén infinito.",
+      "intro": "Complex Furnishings se desarrolla en una tienda de muebles con un almacén infinito y una atmósfera inspirada en los backrooms. El contenido del mapa debe interpretarse como una exploración de espacios liminales: las zonas normales de la tienda pueden llevar a habitaciones extrañas, pasillos del almacén y momentos de navegación cooperativa.",
+      "items": [
+        {
+          "title": "Zona de la tienda de muebles",
+          "content": "El concepto inicial es una tienda de muebles. Los jugadores nuevos deberían usar esta zona para entender el tema visual antes de adentrarse más en el almacén."
+        },
+        {
+          "title": "Almacén infinito",
+          "content": "La descripción oficial dice que la tienda de muebles tiene un almacén infinito. Trata esto como la zona central de exploración, donde las habitaciones y los caminos pueden sentirse repetitivos, poco naturales o como un laberinto."
+        },
+        {
+          "title": "Habitaciones inspiradas en los Backrooms",
+          "content": "El juego está inspirado en la película de The Backrooms de A24 y Kane Parsons, por lo que los jugadores deben esperar espacios liminales, tensión en habitaciones vacías y una navegación inusual en lugar del diseño normal de una tienda de muebles."
+        },
+        {
+          "title": "Movimiento cooperativo",
+          "content": "Dado que la página de Roblox describe el juego como cooperativo, los jugadores deben moverse juntos, recordar las pistas de las habitaciones y evitar separarse demasiado al explorar secciones desconocidas."
+        },
+        {
+          "title": "Regla de navegación",
+          "content": "El almacén no quiere que los jugadores se lleven nada, por lo que el enfoque más seguro para principiantes es explorar lentamente, prestar atención a los cambios de diseño y usar muebles o formas de habitaciones familiares como puntos de referencia."
+        }
+      ]
+    },
+    "complexFurnishingsMonstersAndSurvival": {
+      "title": "Guía de supervivencia y monstruos de Complex Furnishings",
+      "subtitle": "Complex Furnishings se desarrolla en una tienda de muebles con un almacén infinito que se resiste cuando los jugadores intentan llevarse objetos. El ciclo de supervivencia se centra en el movimiento cauteloso, la coordinación cooperativa y en evitar el pánico durante los momentos de amenaza al estilo de los backrooms.",
+      "intro": "Usa esta guía como un flujo práctico de supervivencia para tus primeras partidas. La página del juego describe el entorno como un almacén de muebles infinito, es compatible con el modo cooperativo y presenta el almacén en sí como hostil, por lo que el enfoque más seguro es moverse lentamente, permanecer juntos y tratar cada pasillo largo o cambio de habitación como un posible punto de peligro.",
+      "steps": [
+        {
+          "title": "Entra al almacén con cuidado",
+          "goal": "No te apresures a entrar en habitaciones nuevas solo porque parezcan vacías.",
+          "description": "Complex Furnishings utiliza un entorno de almacén inspirado en los backrooms, por lo que las habitaciones repetidas, las curvas cerradas y las largas líneas de visión son parte del peligro. Detente en las esquinas, revisa los caminos antes de avanzar y evita correr hacia espacios desconocidos."
+        },
+        {
+          "title": "Mantente cerca en el modo cooperativo",
+          "goal": "Usa a tus compañeros de equipo como ojos adicionales en lugar de separarse demasiado pronto.",
+          "description": "La página oficial de Roblox clasifica el juego como cooperativo, lo que hace que el movimiento en grupo sea importante. Mantén a un jugador vigilando los caminos de adelante mientras otro vigila los ángulos laterales o la ruta de regreso."
+        },
+        {
+          "title": "Reacciona rápido durante los momentos de persecución",
+          "goal": "Corre hacia caminos abiertos, no hacia pilas de muebles aleatorias.",
+          "description": "Los clips de juego públicos presentan a Complex Furnishings como una experiencia de terror de los backrooms en Roblox. Ante un peligro repentino, prioriza los pasillos despejados, los espacios amplios y los marcadores de habitaciones reconocibles en lugar de detenerte a inspeccionar objetos."
+        },
+        {
+          "title": "Usa los muebles como pistas de navegación",
+          "goal": "Recuerda la distribución de las habitaciones para poder regresar de forma segura.",
+          "description": "Dado que el entorno es una tienda de muebles y un almacén, los objetos pueden ayudar a los jugadores a marcar mentalmente dónde han estado. Usa grandes conjuntos de muebles, accesorios inusuales y formas de habitaciones como puntos de referencia sencillos."
+        },
+        {
+          "title": "Abandona las zonas de riesgo antes de que aumente el pánico",
+          "goal": "Primero sobrevive, luego recolecta.",
+          "description": "La premisa principal dice que el almacén no quiere que los jugadores se lleven nada. Considera la exploración más profunda como un riesgo mayor y retrocede cuando los caminos se vuelvan confusos o los compañeros de equipo se pierdan de vista."
+        }
+      ]
+    },
+    "complexFurnishingsFurnitureAndItem": {
+      "title": "Guía de muebles y objetos de Complex Furnishings",
+      "subtitle": "Los muebles son el centro del entorno de Complex Furnishings: los jugadores están dentro de una tienda con un almacén infinito lleno de objetos y distribuciones de habitaciones. La mejor manera de interpretar el entorno es tratar a los muebles tanto como parte de la atmósfera como información de navegación.",
+      "intro": "Complex Furnishings no presenta una lista tradicional de armas u objetos en la página pública de Roblox. Los datos visibles del juego apuntan a una ambientación de terror en una tienda de muebles, por lo que este módulo organiza los tipos de objetos que los jugadores tienen más probabilidades de notar al explorar: muebles del almacén, accesorios, desorden de las habitaciones, caminos y puntos de referencia visuales.",
+      "columns": [
+        "Tipo de objeto",
+        "Dónde aparece",
+        "Uso del jugador",
+        "Consejo"
+      ],
+      "rows": [
+        {
+          "type": "Existencias de muebles",
+          "location": "Dentro del almacén infinito",
+          "use": "Enfoque ambiental principal del juego",
+          "tip": "Usa piezas de muebles grandes como puntos de referencia al moverte por habitaciones repetidas."
+        },
+        {
+          "type": "Objetos de las habitaciones",
+          "location": "Alrededor de espacios estilo tienda de muebles y backrooms",
+          "use": "Ayuda a separar visualmente un área de otra",
+          "tip": "Presta atención a objetos inusuales porque pueden ayudar a tu equipo a recordar rutas seguras."
+        },
+        {
+          "type": "Senderos abiertos",
+          "location": "Entre estantes, habitaciones y pasillos del almacén",
+          "use": "Probables rutas de escape y movimiento durante momentos de presión",
+          "tip": "Mantén un camino despejado detrás de ti antes de adentrarte más en el almacén."
+        },
+        {
+          "type": "Grupos de muebles",
+          "location": "Áreas densas mostradas en clips públicos al estilo backrooms",
+          "use": "Pueden hacer que las habitaciones se sientan confusas o bloquear el movimiento directo",
+          "tip": "Evita quedar atrapado en espacios abarrotados cuando comience una persecución o una amenaza repentina."
+        },
+        {
+          "type": "Señales de distribución de la tienda y pistas visuales",
+          "location": "Áreas temáticas de tienda de muebles",
+          "use": "Soporte de navegación",
+          "tip": "Avisa sobre detalles reconocibles a tus compañeros para que el grupo pueda reunirse más rápido."
+        }
+      ]
+    },
+    "complexFurnishingsDiscordAndUpdates": {
+      "title": "Discord y actualizaciones de Complex Furnishings",
+      "subtitle": "Los lugares más rápidos para seguir Complex Furnishings son la invitación oficial de Discord, el canal de YouTube del creador y los videos de adelanto públicos. Estas fuentes son útiles para noticias de lanzamiento, nuevos clips y cambios en la jugabilidad.",
+      "intro": "Complex Furnishings es una nueva experiencia de terror en Roblox, por lo que la información de las actualizaciones se distribuye en la página del juego de Roblox, la invitación de Discord que se muestra con el proyecto y las publicaciones de video del creador. Usa estos enlaces para seguir los nuevos anuncios, clips públicos y discusiones de la comunidad.",
+      "cards": [
+        {
+          "name": "Discord oficial",
+          "type": "Comunidad",
+          "description": "La invitación pública utilizada para las actualizaciones de la comunidad de Complex Furnishings y las discusiones de los jugadores.",
+          "href": "https://discord.gg/complexfurnishings",
+          "bestFor": "Anuncios, discusiones de jugadores y seguimiento de actualizaciones"
+        },
+        {
+          "name": "Canal de YouTube de sushiclozy",
+          "type": "Canal del creador",
+          "description": "El canal del creador conectado con el contenido de adelanto de Complex Furnishings y los videos de desarrollo de Roblox.",
+          "href": "https://www.youtube.com/@sushiclozy",
+          "bestFor": "Adelantos, clips de jugabilidad y revelaciones por parte del creador"
+        },
+        {
+          "name": "Teaser | Complex Furnishings",
+          "type": "Video oficial",
+          "description": "Un video de adelanto público para Complex Furnishings que enlaza el juego con la invitación de la comunidad discord.gg/complexfurnishings.",
+          "href": "https://www.youtube.com/watch?v=u8mXBIVhNwk",
+          "bestFor": "Vista previa rápida del tono estilo tienda de muebles de los backrooms del juego"
+        },
+        {
+          "name": "Página del juego en Roblox",
+          "type": "Página oficial de la tienda",
+          "description": "La página principal de Roblox para Complex Furnishings de Real Mouse Productions, que incluye la descripción pública, la compatibilidad con dispositivos, la pestaña de la tienda y la pestaña de servidores.",
+          "href": "https://www.roblox.com/games/140202088182537/Complex-Furnishings",
+          "bestFor": "Acceso al juego, descripción del juego, estado del servidor e información de la plataforma"
+        }
+      ]
+    },
+    "complexFurnishingsStatsAndPopularity": {
+      "title": "Estadísticas y popularidad de Complex Furnishings",
+      "subtitle": "Se puede realizar un seguimiento de Complex Furnishings a través de su página oficial de Roblox y las páginas de RoMonitor Stats para ver el rendimiento y la monetización. Estas fuentes ayudan a los jugadores a evaluar la actividad, el acceso y el interés público en torno al juego.",
+      "intro": "La página oficial de Roblox identifica a Complex Furnishings como una experiencia de Roblox de Real Mouse Productions con soporte para todos los dispositivos y jugabilidad cooperativa. RoMonitor proporciona páginas separadas de rendimiento y monetización para el mismo ID de experiencia, lo que resulta útil para comprobaciones de actividad y análisis.",
+      "columns": [
+        "Métrica",
+        "Valor",
+        "Fuente",
+        "Significado"
+      ],
+      "rows": [
+        {
+          "metric": "Título del juego",
+          "value": "Complex Furnishings",
+          "source": "Página del juego en Roblox",
+          "meaning": "Nombre público oficial de la experiencia de Roblox."
+        },
+        {
+          "metric": "Desarrollador",
+          "value": "Real Mouse Productions",
+          "source": "Página del juego en Roblox",
+          "meaning": "El grupo de creadores que se muestra en la lista oficial de Roblox."
+        },
+        {
+          "metric": "Premisa principal",
+          "value": "Una tienda de muebles con un almacén infinito que no quiere que los jugadores se lleven nada",
+          "source": "Descripción del juego en Roblox",
+          "meaning": "Define el juego como una experiencia de terror en una tienda de muebles con un concepto de almacén hostil."
+        },
+        {
+          "metric": "Compatibilidad con dispositivos",
+          "value": "Todos los dispositivos",
+          "source": "Descripción del juego en Roblox",
+          "meaning": "La lista pública presenta el juego como jugable en todos los tipos de dispositivos compatibles con Roblox."
+        },
+        {
+          "metric": "Señal multijugador",
+          "value": "Cooperativo",
+          "source": "Descripción del juego en Roblox",
+          "meaning": "La lista pública destaca el juego cooperativo como parte de la experiencia."
+        },
+        {
+          "metric": "Señal de género",
+          "value": "Terror de Roblox inspirado en los Backrooms",
+          "source": "Descripción del juego en Roblox y clips de avance públicos",
+          "meaning": "El juego se posiciona en torno a una atmósfera al estilo de los Backrooms, la exploración y la presión de las amenazas."
+        },
+        {
+          "metric": "Seguimiento de rendimiento",
+          "value": "Página de rendimiento de RoMonitor disponible",
+          "source": "RoMonitor Stats",
+          "meaning": "Los jugadores pueden consultar análisis de rendimiento para el ID de experiencia."
+        },
+        {
+          "metric": "Seguimiento de monetización",
+          "value": "Página de monetización de RoMonitor disponible",
+          "source": "Estadísticas de RoMonitor",
+          "meaning": "Los jugadores pueden comprobar las señales de visibilidad de monetización para el ID de la experiencia."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Complex Furnishings",
+    "questions": [
+      {
+        "question": "¿Qué es Complex Furnishings?",
+        "answer": "Complex Furnishings es un juego de terror al estilo backrooms de Roblox creado por Real Mouse Productions, donde los jugadores exploran una tienda de muebles con un almacén infinito que no quiere que se lleven nada."
+      },
+      {
+        "question": "¿Es Complex Furnishings gratis para jugar en Roblox?",
+        "answer": "Sí. Complex Furnishings es una experiencia de Roblox, así que puedes unirte a ella a través de la página oficial del juego en Roblox con una cuenta de Roblox."
+      },
+      {
+        "question": "¿Tiene Complex Furnishings códigos de canje?",
+        "answer": "Complex Furnishings no tiene actualmente ningún código de canje oficial listado en su página de Roblox. Sigue el Discord oficial y el canal de YouTube de sushiclozy para nuevos lanzamientos de códigos."
+      },
+      {
+        "question": "¿Es Complex Furnishings para un jugador o cooperativo?",
+        "answer": "La página oficial de Roblox describe Complex Furnishings como una experiencia cooperativa, por lo que la exploración en grupo es el estilo de juego previsto."
+      },
+      {
+        "question": "¿Dónde puedo seguir las actualizaciones de Complex Furnishings?",
+        "answer": "Sigue a Complex Furnishings a través de la invitación oficial de Discord, el canal de YouTube de sushiclozy y la página del juego en Roblox para enterarte de las noticias de lanzamiento y ver nuevos clips."
+      },
+      {
+        "question": "¿Qué dispositivos son compatibles con Complex Furnishings?",
+        "answer": "La ficha oficial de Complex Furnishings en Roblox incluye una nota de compatibilidad con todos los dispositivos, lo que permite jugarlo en dispositivos móviles y de escritorio compatibles con Roblox."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar Complex Furnishings?",
+    "description": "¡Únete a la comunidad de Complex Furnishings en Discord para ver guías, actualizaciones y debates!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Complex Furnishings",
+    "description": "Tu centro de recursos completo para códigos, objetos, habitaciones, entidades, venta de muebles y guías de supervivencia de Complex Furnishings.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Complex Furnishings Wiki. No afiliado a los desarrolladores de Complex Furnishings.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Complex Furnishings",
+      "description": "Guía completa de Complex Furnishings que cubre los conceptos básicos para principiantes, estrategias de supervivencia, navegación por el almacén y tácticas cooperativas.",
+      "metaTitle": "Guía de Complex Furnishings - Consejos para principiantes y estrategias de supervivencia",
+      "metaDescription": "Domina Complex Furnishings con consejos para principiantes, estrategias de supervivencia, navegación por el almacén y tácticas cooperativas para la tienda de muebles de los backrooms.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué es la guía de Complex Furnishings?",
+      "whatIsDescription": "Guías completas de Complex Furnishings que cubren mecánicas de juego, estrategias de supervivencia y navegación por el almacén. Aprende todo, desde tus primeros pasos hasta tácticas cooperativas avanzadas.",
+      "why": "¿Por qué leer las guías de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Entiende el ciclo de supervivencia, las reglas del almacén y los errores comunes de principiantes",
+        "step2Title": "Sobrevive más tiempo",
+        "step2Description": "Sigue rutas probadas para navegar por los Backrooms y evitar peligros",
+        "step3Title": "Domina el juego cooperativo",
+        "step3Description": "Desarrolla tácticas avanzadas para la exploración en grupo y la supervivencia en equipo"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "codes": {
+      "title": "Códigos de Complex Furnishings",
+      "description": "Los últimos códigos de Complex Furnishings para recompensas gratuitas, además de dónde encontrar nuevos lanzamientos de códigos y cómo canjearlos.",
+      "metaTitle": "Códigos de Complex Furnishings - Guía de recompensas gratuitas y canje",
+      "metaDescription": "Consigue recompensas gratuitas con códigos activos de Complex Furnishings. Descubre dónde se lanzan nuevos códigos y aprende a canjearlos en el juego de Backrooms de Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Complex Furnishings?",
+      "whatIsDescription": "Los códigos de Complex Furnishings son recompensas canjeables lanzadas por los desarrolladores. Pueden otorgar objetos gratuitos, potenciadores o moneda del juego al ingresarlos en la página oficial del juego en Roblox.",
+      "why": "¿Por qué consultar los códigos de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Reclama recompensas gratuitas",
+        "step1Description": "Canjea códigos activos para obtener objetos gratuitos, potenciadores y moneda del juego",
+        "step2Title": "Encuentra nuevos lanzamientos",
+        "step2Description": "Rastrea las fuentes oficiales donde aparecen primero los nuevos códigos",
+        "step3Title": "Canjea correctamente",
+        "step3Description": "Aprende los pasos exactos para ingresar códigos y evitar errores de canje"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "release": {
+      "title": "Lanzamiento de Complex Furnishings",
+      "description": "Sigue las fechas de lanzamiento de Complex Furnishings, el acceso a la beta, los programas de testers y los detalles de acceso para creadores de contenido.",
+      "metaTitle": "Fecha de lanzamiento de Complex Furnishings - Acceso a beta, testers y creadores",
+      "metaDescription": "Encuentra la fecha de lanzamiento de Complex Furnishings, el acceso a la beta, el programa de testers y los detalles de acceso para creadores de contenido para el juego de Backrooms de Roblox.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es la información de lanzamiento de Complex Furnishings?",
+      "whatIsDescription": "Información de lanzamiento de Complex Furnishings, incluyendo la fecha de estreno, fases beta, acceso para testers y programas para creadores de contenido. Sigue cuándo se publican nuevas versiones y funciones.",
+      "why": "¿Por qué seguir las noticias de lanzamiento de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de estreno",
+        "step1Description": "Encuentra la fecha de lanzamiento oficial y el estado de acceso actual del juego",
+        "step2Title": "Únete al acceso beta",
+        "step2Description": "Aprende cómo unirte a las fases beta y programas de testers de forma anticipada",
+        "step3Title": "Obtener acceso de creador",
+        "step3Description": "Comprende cómo los creadores de contenido pueden obtener acceso anticipado"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Toda la información de lanzamiento"
+    },
+    "gameplay": {
+      "title": "Gameplay de Complex Furnishings",
+      "description": "Mira tráileres de gameplay, adelantos, transmisiones en vivo y videos de fans de Complex Furnishings que muestran la tienda de muebles de los backrooms en acción.",
+      "metaTitle": "Gameplay de Complex Furnishings - Tráileres, adelantos y transmisiones en vivo",
+      "metaDescription": "Mira el gameplay de Complex Furnishings a través de tráileres oficiales, adelantos, transmisiones en vivo y videos de fans que revelan la experiencia de la tienda de muebles de los backrooms.",
+      "categoryLabel": "VIDEOS DE GAMEPLAY",
+      "whatIs": "¿Qué es el gameplay de Complex Furnishings?",
+      "whatIsDescription": "Los videos de gameplay de Complex Furnishings incluyen tráileres oficiales, adelantos, transmisiones en vivo y clips hechos por fans. Muestran la tienda de muebles de los backrooms, la exploración del almacén y momentos de supervivencia en acción.",
+      "why": "¿Por qué ver el gameplay de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Mira el juego en acción",
+        "step1Description": "Mira tráileres y adelantos para entender el ciclo principal antes de jugar",
+        "step2Title": "Aprende de los jugadores",
+        "step2Description": "Aprende rutas de supervivencia y tácticas de las transmisiones en vivo y clips de fans",
+        "step3Title": "Encuentra contenido nuevo",
+        "step3Description": "Descubre nuevas salas, muebles y entidades reveladas en los videos de actualizaciones"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los videos de gameplay"
+    },
+    "backrooms": {
+      "title": "Backrooms de Complex Furnishings",
+      "description": "Explora las áreas de los backrooms de Complex Furnishings, rutas de venta de muebles, ciclos para ganar dinero y caminos seguros por el almacén.",
+      "metaTitle": "Backrooms de Complex Furnishings - Salas, venta y rutas de dinero",
+      "metaDescription": "Domina los backrooms de Complex Furnishings con guías de salas, rutas de venta de muebles, ciclos para ganar dinero y caminos seguros a través del almacén infinito.",
+      "categoryLabel": "BACKROOMS Y VENTA",
+      "whatIs": "¿Qué son los backrooms de Complex Furnishings?",
+      "whatIsDescription": "Los backrooms de Complex Furnishings son las áreas liminales del almacén donde los jugadores exploran salas, recogen muebles y los venden para obtener ganancias. Aprende el diseño, la lógica de venta y las rutas seguras.",
+      "why": "¿Por qué explorar los backrooms de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Aprende los diseños de las salas",
+        "step1Description": "Entiende cómo se conectan las salas y qué áreas son seguras o peligrosas",
+        "step2Title": "Vende muebles para obtener ganancias",
+        "step2Description": "Crea ciclos de dinero eficientes recogiendo y vendiendo los muebles adecuados",
+        "step3Title": "Encuentra rutas seguras",
+        "step3Description": "Memoriza puntos de referencia y rutas de escape para evitar perderte"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de backrooms"
+    },
+    "entities": {
+      "title": "Entidades de Complex Furnishings",
+      "description": "Aprende sobre cada entidad de Complex Furnishings, el comportamiento de los monstruos, las mecánicas de persecución y las tácticas de supervivencia para evitar el peligro en el almacén.",
+      "metaTitle": "Entidades de Complex Furnishings - Monstruos, persecuciones y supervivencia",
+      "metaDescription": "Guía completa de entidades de Complex Furnishings que cubre monstruos, amenazas hostiles, mecánicas de persecución y tácticas de supervivencia para el almacén de los backrooms.",
+      "categoryLabel": "ENTIDADES Y AMENAZAS",
+      "whatIs": "¿Qué son las entidades de Complex Furnishings?",
+      "whatIsDescription": "Las entidades de Complex Furnishings son los monstruos hostiles y las amenazas dentro del almacén. Aprende dónde aparece cada entidad, cómo se comporta y la forma más segura de evitarla o escapar de ella.",
+      "why": "¿Por qué estudiar las entidades de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Reconoce las amenazas a tiempo",
+        "step1Description": "Identifica señales de peligro y apariciones de entidades antes de que comience una persecución",
+        "step2Title": "Reacciona a las persecuciones",
+        "step2Description": "Aprende el movimiento correcto y la ruta de escape para cada tipo de entidad",
+        "step3Title": "Sobrevive más tiempo",
+        "step3Description": "Desarrolla hábitos que te mantengan a ti y a tu equipo cooperativo con vida"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las entidades"
+    },
+    "items": {
+      "title": "Objetos de Complex Furnishings",
+      "description": "Guías detalladas de objetos de Complex Furnishings que cubren muebles, accesorios, objetos de las habitaciones y pistas de navegación con consejos de uso.",
+      "metaTitle": "Objetos de Complex Furnishings - Guía de muebles, accesorios y objetos",
+      "metaDescription": "Base de datos completa de objetos de Complex Furnishings que cubre muebles, accesorios y objetos del almacén. Aprende cómo funciona cada objeto y cómo usarlo para la navegación.",
+      "categoryLabel": "OBJETOS Y ARTÍCULOS",
+      "whatIs": "¿Qué son los objetos de Complex Furnishings?",
+      "whatIsDescription": "Los objetos de Complex Furnishings incluyen muebles, accesorios y objetos del almacén. Aprende el rol de cada objeto, su valor y cómo usar los objetos como puntos de referencia mientras exploras.",
+      "why": "¿Por qué consultar las guías de objetos de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Aprende los roles de los objetos",
+        "step1Description": "Descubre cómo funcionan los muebles y accesorios en el entorno del juego",
+        "step2Title": "Navega con seguridad",
+        "step2Description": "Usa los objetos como puntos de referencia para recordar rutas seguras por el almacén",
+        "step3Title": "Mejora la supervivencia",
+        "step3Description": "Lee el entorno para evitar trampas y zonas de peligro"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los objetos"
+    },
+    "platform": {
+      "title": "Plataforma de Complex Furnishings",
+      "description": "Guías de plataforma de Complex Furnishings que cubren el acceso a Roblox, PC, dispositivos móviles, controles, Discord y consejos específicos para cada dispositivo.",
+      "metaTitle": "Plataforma de Complex Furnishings - Roblox, PC, dispositivos móviles y controles",
+      "metaDescription": "Juega Complex Furnishings en la plataforma adecuada con guías para el acceso a Roblox, PC, dispositivos móviles, controles, comunidad de Discord y consejos específicos para cada dispositivo.",
+      "categoryLabel": "PLATAFORMA Y DISPOSITIVOS",
+      "whatIs": "¿Qué es la plataforma de Complex Furnishings?",
+      "whatIsDescription": "Complex Furnishings es una experiencia de Roblox jugable en PC, dispositivos móviles y otros dispositivos compatibles. Aprende a unirte, configurar controles, solucionar errores en móviles y conectarte a través de Discord.",
+      "why": "¿Por qué consultar las guías de plataforma de Complex Furnishings?",
+      "whySteps": {
+        "step1Title": "Elige el dispositivo adecuado",
+        "step1Description": "Compara PC, dispositivos móviles y otras plataformas compatibles para obtener la mejor experiencia",
+        "step2Title": "Configura los controles",
+        "step2Description": "Configura los controles y soluciona errores en móviles para una jugabilidad más fluida",
+        "step3Title": "Únete a la comunidad",
+        "step3Description": "Conéctate a través del Discord oficial para obtener ayuda, actualizaciones y cooperativo"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Guías para todas las plataformas"
+    }
   }
 }
