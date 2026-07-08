@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Complex Furnishings Wiki - Codes, Items & Rooms",
+      "description": "Complex Furnishings Wiki covers Roblox codes, items, rooms, selling furniture, beginner tips, entities, updates, and survival routes for Backrooms players.",
+      "keywords": "Complex Furnishings, Roblox, codes, items, rooms, entities, Backrooms guide",
+      "ogTitle": "Complex Furnishings Wiki - Codes, Items & Rooms",
+      "ogDescription": "Complex Furnishings Wiki covers Roblox codes, items, rooms, selling furniture, beginner tips, entities, updates, and survival routes for Backrooms players.",
+      "twitterTitle": "Complex Furnishings Wiki - Codes, Items & Rooms",
+      "twitterDescription": "Complex Furnishings Wiki covers Roblox codes, items, rooms, entities, updates, and survival routes for Backrooms players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Backrooms Furniture Survival Game",
+    "title": "Complex Furnishings Wiki",
+    "description": "Complex Furnishings is a Roblox Backrooms-style game where players explore liminal rooms, sell furniture, avoid danger, and learn routes, items, and updates.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "22.75k",
+        "label": "Lifetime Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "1,496",
+        "label": "Current Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "Jul 7",
+        "label": "Release Date"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "Roblox",
+        "label": "Platform"
       }
     }
   },
@@ -181,27 +181,26 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Explore Complex Furnishings?",
+    "description": "Join the Complex Furnishings community on Discord for guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "title": "Complex Furnishings Wiki",
+    "description": "Your complete resource hub for Complex Furnishings codes, items, rooms, entities, selling furniture, and survival guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "roblox": "Roblox",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Complex Furnishings Wiki. Not affiliated with the developers of Complex Furnishings.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
