@@ -165,6 +165,14 @@ export async function getAllContentPaths(language: Language = 'en'): Promise<str
     }
   }
 
+  // output:'export' 要求 catch-all 路由 [...slug] 的 generateStaticParams 至少返回一个 param，
+  // 否则构建报 "missing generateStaticParams()"。内容尚未接入时（CONTENT_TYPES 为空、无文章）
+  // 用占位 path 兜底：对应页面走 notFound()（isValidContentType=false），且此函数仅被
+  // generateStaticParams 调用，不进 sitemap。Part4+ 接入内容后 paths 非空，占位不触发。
+  if (paths.length === 0) {
+    paths.push(['__reserved__'])
+  }
+
   return paths
 }
 
